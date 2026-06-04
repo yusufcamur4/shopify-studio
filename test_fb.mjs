@@ -1,0 +1,10 @@
+import { chromium } from 'playwright';
+const s=ms=>new Promise(r=>setTimeout(r,ms));
+const b=await chromium.launch({headless:true,args:['--use-gl=swiftshader','--ignore-gpu-blocklist']});
+const p=await(await b.newContext({viewport:{width:1440,height:900}})).newPage();
+const errs=[]; p.on('pageerror',e=>errs.push(String(e))); p.on('console',m=>{if(m.type()==='error')errs.push(m.text());});
+await p.goto('http://localhost:5173/',{waitUntil:'networkidle'}); await s(2200);
+const cv=await p.evaluate(()=>{const c=document.getElementById('hero3d');return !!c && !!c.getContext('webgl2');});
+console.log('hero3d canvas render:',cv,'(okan.glb yok → "</>" fallback)');
+console.log('errors:',errs.length?errs.slice(0,3):'none');
+await b.close();

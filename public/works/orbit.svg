@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Orbit içerik üretici gelir paneli">
+  <defs>
+    <linearGradient id="ob-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d0e18"/><stop offset="1" stop-color="#08080f"/></linearGradient>
+    <linearGradient id="ob-acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a06bff"/><stop offset="1" stop-color="#54c8ff"/></linearGradient>
+    <linearGradient id="ob-area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8a5bff" stop-opacity="0.45"/><stop offset="1" stop-color="#8a5bff" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#ob-bg)"/>
+
+  <!-- SIDEBAR -->
+  <rect x="0" y="0" width="216" height="800" fill="#0a0a14"/>
+  <line x1="216" y1="0" x2="216" y2="800" stroke="#1c1c2e"/>
+  <circle cx="40" cy="44" r="11" fill="url(#ob-acc)"/>
+  <text x="60" y="50" font-family="Arial" font-size="19" font-weight="bold" fill="#f3f3fb">Orbit</text>
+  <rect x="20" y="92" width="176" height="36" rx="9" fill="#16162a"/>
+  <circle cx="42" cy="110" r="4" fill="#a06bff"/><text x="58" y="115" font-family="Arial" font-size="13" fill="#e6e6f2">Genel Bakış</text>
+  <g font-family="Arial" font-size="13" fill="#7a7a96">
+    <text x="58" y="159">İçerikler</text><text x="58" y="199">Aboneler</text><text x="58" y="239">Gelir</text><text x="58" y="279">Mağaza</text><text x="58" y="319">Analitik</text>
+  </g>
+  <g fill="#3a3a55"><circle cx="42" cy="154" r="3"/><circle cx="42" cy="194" r="3"/><circle cx="42" cy="234" r="3"/><circle cx="42" cy="274" r="3"/><circle cx="42" cy="314" r="3"/></g>
+  <rect x="20" y="724" width="176" height="48" rx="10" fill="#13131f" stroke="#23233a"/>
+  <circle cx="44" cy="748" r="14" fill="url(#ob-acc)"/>
+  <text x="66" y="744" font-family="Arial" font-size="12" fill="#e6e6f2">Mira Aydın</text>
+  <text x="66" y="760" font-family="Arial" font-size="10" fill="#7a7a96">Pro plan</text>
+
+  <!-- TOPBAR -->
+  <text x="248" y="50" font-family="Arial" font-size="20" font-weight="bold" fill="#f3f3fb">Genel Bakış</text>
+  <text x="248" y="70" font-family="Arial" font-size="12" fill="#7a7a96">Hoş geldin, Mira — bu ay harika gidiyor 🚀</text>
+  <rect x="760" y="32" width="220" height="38" rx="19" fill="#13131f" stroke="#23233a"/>
+  <circle cx="784" cy="51" r="6" fill="none" stroke="#6a6a86" stroke-width="1.5"/><line x1="788" y1="55" x2="793" y2="60" stroke="#6a6a86" stroke-width="1.5"/>
+  <text x="802" y="56" font-family="Arial" font-size="12" fill="#6a6a86">Ara…</text>
+  <rect x="996" y="32" width="60" height="38" rx="19" fill="#13131f" stroke="#23233a"/><circle cx="1026" cy="51" r="5" fill="#a06bff"/>
+  <rect x="1072" y="32" width="100" height="38" rx="19" fill="url(#ob-acc)"/><text x="1090" y="56" font-family="Arial" font-size="12" font-weight="bold" fill="#0c0c16">+ İçerik</text>
+
+  <!-- KPI CARDS -->
+  <g font-family="Arial">
+    <rect x="248" y="96" width="218" height="116" rx="14" fill="#13131f" stroke="#23233a"/>
+    <rect x="478" y="96" width="218" height="116" rx="14" fill="#13131f" stroke="#23233a"/>
+    <rect x="708" y="96" width="218" height="116" rx="14" fill="#13131f" stroke="#23233a"/>
+    <rect x="938" y="96" width="218" height="116" rx="14" fill="#13131f" stroke="#23233a"/>
+    <g font-size="11" letter-spacing="1.5" fill="#8a8aa6"><text x="272" y="130">AYLIK GELİR</text><text x="502" y="130">ABONELER</text><text x="732" y="130">İZLENME</text><text x="962" y="130">DÖNÜŞÜM</text></g>
+    <g font-size="30" font-weight="bold" fill="#ffffff"><text x="272" y="172">₺184K</text><text x="502" y="172">12.940</text><text x="732" y="172">2.4M</text><text x="962" y="172">%4.8</text></g>
+    <g font-size="11" fill="#4fd18a"><text x="272" y="196">▲ %12.4</text><text x="502" y="196">▲ %8.1</text><text x="732" y="196">▲ %22.0</text></g>
+    <text x="962" y="196" font-family="Arial" font-size="11" fill="#e0786b">▼ %1.2</text>
+  </g>
+
+  <!-- REVENUE CHART -->
+  <rect x="248" y="232" width="586" height="278" rx="14" fill="#13131f" stroke="#23233a"/>
+  <text x="272" y="266" font-family="Arial" font-size="13" font-weight="bold" fill="#e6e6f2">Gelir Trendi</text>
+  <rect x="700" y="248" width="112" height="28" rx="14" fill="#1a1a2c"/><text x="720" y="266" font-family="Arial" font-size="11" fill="#b8b8d0">Son 12 ay ▾</text>
+  <g stroke="#20203400"><line x1="272" y1="320" x2="810" y2="320" stroke="#1e1e30"/><line x1="272" y1="376" x2="810" y2="376" stroke="#1e1e30"/><line x1="272" y1="432" x2="810" y2="432" stroke="#1e1e30"/></g>
+  <path d="M272 432 L320 414 L368 420 L416 388 L464 398 L512 360 L560 372 L608 330 L656 344 L704 308 L752 320 L800 288 L800 466 L272 466 Z" fill="url(#ob-area)"/>
+  <polyline points="272,432 320,414 368,420 416,388 464,398 512,360 560,372 608,330 656,344 704,308 752,320 800,288" fill="none" stroke="url(#ob-acc)" stroke-width="2.5"/>
+  <circle cx="800" cy="288" r="4" fill="#54c8ff"/>
+  <g font-family="Arial" font-size="9" fill="#6a6a86"><text x="272" y="486">Tem</text><text x="368" y="486">Eyl</text><text x="464" y="486">Kas</text><text x="560" y="486">Oca</text><text x="656" y="486">Mar</text><text x="752" y="486">May</text></g>
+
+  <!-- AUDIENCE BARS -->
+  <rect x="846" y="232" width="310" height="278" rx="14" fill="#13131f" stroke="#23233a"/>
+  <text x="870" y="266" font-family="Arial" font-size="13" font-weight="bold" fill="#e6e6f2">Abone Kaynağı</text>
+  <g>
+    <rect x="870" y="392" width="34" height="72" rx="5" fill="#2b59d0"/>
+    <rect x="916" y="356" width="34" height="108" rx="5" fill="#3a3a66"/>
+    <rect x="962" y="320" width="34" height="144" rx="5" fill="url(#ob-acc)"/>
+    <rect x="1008" y="404" width="34" height="60" rx="5" fill="#3a3a66"/>
+    <rect x="1054" y="372" width="34" height="92" rx="5" fill="#54c8ff"/>
+    <rect x="1100" y="416" width="34" height="48" rx="5" fill="#3a3a66"/>
+  </g>
+  <g font-family="Arial" font-size="9" fill="#6a6a86"><text x="874" y="482">YT</text><text x="920" y="482">IG</text><text x="966" y="482">TT</text><text x="1012" y="482">X</text><text x="1058" y="482">Web</text><text x="1106" y="482">Mail</text></g>
+
+  <!-- TOP PRODUCTS / TABLE -->
+  <rect x="248" y="528" width="586" height="240" rx="14" fill="#13131f" stroke="#23233a"/>
+  <text x="272" y="562" font-family="Arial" font-size="13" font-weight="bold" fill="#e6e6f2">Son Satışlar</text>
+  <text x="760" y="562" font-family="Arial" font-size="11" fill="#54c8ff">Tümü →</text>
+  <g font-family="Arial" font-size="10" letter-spacing="1" fill="#6a6a86"><text x="272" y="590">ÜRÜN</text><text x="560" y="590">SATIŞ</text><text x="680" y="590">GELİR</text></g>
+  <line x1="272" y1="600" x2="810" y2="600" stroke="#1e1e30"/>
+  <g font-family="Arial" font-size="13" fill="#e6e6f2"><text x="296" y="630">Sıfırdan Edit Kursu</text><text x="296" y="672">LUT Preset Paketi</text><text x="296" y="714">Topluluk Üyeliği</text><text x="296" y="756">Lightroom Şablonu</text></g>
+  <g><circle cx="280" cy="626" r="6" fill="#a06bff"/><circle cx="280" cy="668" r="6" fill="#54c8ff"/><circle cx="280" cy="710" r="6" fill="#4fd18a"/><circle cx="280" cy="752" r="6" fill="#e0a86b"/></g>
+  <g font-family="Arial" font-size="13" fill="#b8b8d0"><text x="560" y="630">2.140</text><text x="560" y="672">1.720</text><text x="560" y="714">980</text><text x="560" y="756">640</text></g>
+  <g font-family="Arial" font-size="13" fill="#4fd18a"><text x="680" y="630">₺96.300</text><text x="680" y="672">₺34.400</text><text x="680" y="714">₺29.400</text><text x="680" y="756">₺12.800</text></g>
+
+  <!-- GOAL CARD -->
+  <rect x="846" y="528" width="310" height="240" rx="14" fill="#13131f" stroke="#23233a"/>
+  <text x="870" y="562" font-family="Arial" font-size="13" font-weight="bold" fill="#e6e6f2">Aylık Hedef</text>
+  <circle cx="1001" cy="650" r="58" fill="none" stroke="#23233a" stroke-width="12"/>
+  <circle cx="1001" cy="650" r="58" fill="none" stroke="url(#ob-acc)" stroke-width="12" stroke-linecap="round" stroke-dasharray="270 364" transform="rotate(-90 1001 650)"/>
+  <text x="1001" y="648" text-anchor="middle" font-family="Arial" font-size="26" font-weight="bold" fill="#ffffff">%74</text>
+  <text x="1001" y="668" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a7a96">₺184K / ₺250K</text>
+  <text x="1001" y="738" text-anchor="middle" font-family="Arial" font-size="11" fill="#b8b8d0">Hedefe ₺66K kaldı</text>
+</svg>

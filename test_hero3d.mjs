@@ -1,0 +1,12 @@
+import { chromium } from 'playwright';
+const s=ms=>new Promise(r=>setTimeout(r,ms));
+const b=await chromium.launch({headless:true,args:['--use-gl=swiftshader','--enable-webgl','--ignore-gpu-blocklist']});
+const p=await(await b.newContext({viewport:{width:1440,height:900}})).newPage();
+const errs=[],logs=[]; p.on('pageerror',e=>errs.push(String(e))); p.on('console',m=>{if(m.type()==='error')errs.push(m.text()); if(m.text().includes('hero3d'))logs.push(m.text());});
+await p.goto('http://localhost:5173/',{waitUntil:'networkidle'}); await s(2500);
+const info=await p.evaluate(()=>{const c=document.getElementById('hero3d');return c?{w:c.width,h:c.height,hasCtx:!!(c.getContext('webgl2')||c.getContext('webgl'))}:null;});
+console.log('canvas:',JSON.stringify(info));
+await p.screenshot({path:'penta-capture/ob-hero3d.png'});
+await s(600); await p.screenshot({path:'penta-capture/ob-hero3d-2.png'});
+console.log('errors:',errs.length?errs.slice(0,5):'none');
+await b.close();

@@ -1,0 +1,2627 @@
+{
+  "generatedAt": "2026-06-04T04:58:42.955Z",
+  "pages": [
+    {
+      "name": "home",
+      "url": "https://www.pentayazilim.com/",
+      "scrollSteps": [
+        {
+          "step": 0,
+          "scrollY": 0,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove1",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove1",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove2",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove2",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 500,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[62%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove3",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[62%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove2",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 750,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[64%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove4",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[64%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "scrollY": 2238,
+          "animations": [
+            {
+              "type": "CSSTransition",
+              "name": "border-bottom-left-radius",
+              "duration": 450,
+              "easing": "cubic-bezier(0.42, 0.97, 0.52, 1.49)",
+              "delay": 0,
+              "state": "running",
+              "target": "video.block.rounded-[inherit].duration-450"
+            },
+            {
+              "type": "CSSTransition",
+              "name": "border-bottom-right-radius",
+              "duration": 450,
+              "easing": "cubic-bezier(0.42, 0.97, 0.52, 1.49)",
+              "delay": 0,
+              "state": "running",
+              "target": "video.block.rounded-[inherit].duration-450"
+            },
+            {
+              "type": "CSSTransition",
+              "name": "border-top-left-radius",
+              "duration": 450,
+              "easing": "cubic-bezier(0.42, 0.97, 0.52, 1.49)",
+              "delay": 0,
+              "state": "running",
+              "target": "video.block.rounded-[inherit].duration-450"
+            },
+            {
+              "type": "CSSTransition",
+              "name": "border-top-right-radius",
+              "duration": 450,
+              "easing": "cubic-bezier(0.42, 0.97, 0.52, 1.49)",
+              "delay": 0,
+              "state": "running",
+              "target": "video.block.rounded-[inherit].duration-450"
+            },
+            {
+              "type": "CSSTransition",
+              "name": "opacity",
+              "duration": 450,
+              "easing": "cubic-bezier(0.42, 0.97, 0.52, 1.49)",
+              "delay": 0,
+              "state": "running",
+              "target": "div.play-trigger.pointer-events-none.absolute"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove1",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove1",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove2",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove2",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 500,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[62%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove3",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[62%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove2",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 750,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[64%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove4",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[64%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "scrollY": 4476,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove1",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove1",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove2",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove2",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 500,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[62%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove3",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[62%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove2",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 750,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[64%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove4",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[64%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "scrollY": 6714,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove1",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove1",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove2",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove2",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 500,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[62%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove3",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[62%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove2",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 750,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[64%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove4",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[64%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "scrollY": 8953,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove1",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove1",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove2",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove2",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 500,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[62%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove3",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[62%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove2",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 750,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[64%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove4",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[64%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "scrollY": 11191,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove1",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove1",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove2",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove2",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 500,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[62%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove3",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[62%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove2",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 750,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[64%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove4",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[64%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "scrollY": 13429,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove1",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove1",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove2",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove2",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 500,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[62%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove3",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[62%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove2",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 750,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[64%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove4",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[64%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 7,
+          "scrollY": 15667,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove1",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove1",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove2",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove2",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 500,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[62%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove3",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[62%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove2",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 750,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[64%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove4",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[64%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 8,
+          "scrollY": 17905,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove1",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove1",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove2",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[30%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove2",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 500,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[62%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove3",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[62%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "maskMove2",
+              "duration": 1000,
+              "easing": "linear",
+              "delay": 750,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[64%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "objectMove4",
+              "duration": 600,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "img.pointer-events-none.absolute.left-[64%]"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        }
+      ],
+      "langLogoAnimations": {
+        "trigger": "<a href=\"https://pentacreative.co.uk\" class=\"relative flex aspect-[5/6] h-auto w-full flex-col justify-end rounded-6 py-",
+        "before": [
+          {
+            "type": "CSSTransition",
+            "name": "border-bottom-left-radius",
+            "duration": 450,
+            "easing": "cubic-bezier(0.42, 0.97, 0.52, 1.49)",
+            "delay": 0,
+            "state": "running",
+            "target": "video.block.rounded-[inherit].duration-450"
+          },
+          {
+            "type": "CSSTransition",
+            "name": "border-bottom-right-radius",
+            "duration": 450,
+            "easing": "cubic-bezier(0.42, 0.97, 0.52, 1.49)",
+            "delay": 0,
+            "state": "running",
+            "target": "video.block.rounded-[inherit].duration-450"
+          },
+          {
+            "type": "CSSTransition",
+            "name": "border-top-left-radius",
+            "duration": 450,
+            "easing": "cubic-bezier(0.42, 0.97, 0.52, 1.49)",
+            "delay": 0,
+            "state": "running",
+            "target": "video.block.rounded-[inherit].duration-450"
+          },
+          {
+            "type": "CSSTransition",
+            "name": "border-top-right-radius",
+            "duration": 450,
+            "easing": "cubic-bezier(0.42, 0.97, 0.52, 1.49)",
+            "delay": 0,
+            "state": "running",
+            "target": "video.block.rounded-[inherit].duration-450"
+          },
+          {
+            "type": "CSSTransition",
+            "name": "opacity",
+            "duration": 450,
+            "easing": "cubic-bezier(0.42, 0.97, 0.52, 1.49)",
+            "delay": 0,
+            "state": "running",
+            "target": "div.play-trigger.pointer-events-none.absolute"
+          },
+          {
+            "type": "CSSAnimation",
+            "name": "bgMove",
+            "duration": 4000,
+            "easing": "linear",
+            "delay": 0,
+            "state": "running",
+            "target": "a.button.group/button.fx-button"
+          },
+          {
+            "type": "CSSAnimation",
+            "name": "bgMove",
+            "duration": 4000,
+            "easing": "linear",
+            "delay": 0,
+            "state": "running",
+            "target": "button.button.group/button.fx-button"
+          },
+          {
+            "type": "CSSAnimation",
+            "name": "maskMove1",
+            "duration": 1000,
+            "easing": "linear",
+            "delay": 0,
+            "state": "running",
+            "target": "img.pointer-events-none.absolute.left-[30%]"
+          },
+          {
+            "type": "CSSAnimation",
+            "name": "objectMove1",
+            "duration": 600,
+            "easing": "linear",
+            "delay": 0,
+            "state": "running",
+            "target": "img.pointer-events-none.absolute.left-[30%]"
+          },
+          {
+            "type": "CSSAnimation",
+            "name": "objectMove2",
+            "duration": 600,
+            "easing": "linear",
+            "delay": 0,
+            "state": "running",
+            "target": "img.pointer-events-none.absolute.left-[30%]"
+          },
+          {
+            "type": "CSSAnimation",
+            "name": "maskMove2",
+            "duration": 1000,
+            "easing": "linear",
+            "delay": 500,
+            "state": "running",
+            "target": "img.pointer-events-none.absolute.left-[62%]"
+          },
+          {
+            "type": "CSSAnimation",
+            "name": "objectMove3",
+            "duration": 600,
+            "easing": "linear",
+            "delay": 0,
+            "state": "running",
+            "target": "img.pointer-events-none.absolute.left-[62%]"
+          },
+          {
+            "type": "CSSAnimation",
+            "name": "maskMove2",
+            "duration": 1000,
+            "easing": "linear",
+            "delay": 750,
+            "state": "running",
+            "target": "img.pointer-events-none.absolute.left-[64%]"
+          },
+          {
+            "type": "CSSAnimation",
+            "name": "objectMove4",
+            "duration": 600,
+            "easing": "linear",
+            "delay": 0,
+            "state": "running",
+            "target": "img.pointer-events-none.absolute.left-[64%]"
+          },
+          {
+            "type": "CSSAnimation",
+            "name": "bgMove",
+            "duration": 4000,
+            "easing": "linear",
+            "delay": 0,
+            "state": "running",
+            "target": "button.accept-cookie.button.group/button"
+          }
+        ],
+        "during": [
+          {
+            "type": "CSSTransition",
+            "name": "transform",
+            "duration": 300,
+            "easing": "cubic-bezier(0.42, 0.97, 0.52, 1.49)",
+            "delay": 0,
+            "state": "running",
+            "target": "div.dot.relative.z-2"
+          },
+          {
+            "type": "CSSTransition",
+            "name": "opacity",
+            "duration": 300,
+            "easing": "ease",
+            "delay": 0,
+            "state": "running",
+            "target": "div.dot.relative.z-2"
+          },
+          {
+            "type": "CSSTransition",
+            "name": "opacity",
+            "duration": 600,
+            "easing": "ease",
+            "delay": 0,
+            "state": "running",
+            "target": "button.button.group/button.fx-button"
+          },
+          {
+            "type": "CSSTransition",
+            "name": "transform",
+            "duration": 600,
+            "easing": "ease",
+            "delay": 0,
+            "state": "running",
+            "target": "button.button.group/button.fx-button"
+          },
+          {
+            "type": "CSSAnimation",
+            "name": "bgMove",
+            "duration": 4000,
+            "easing": "linear",
+            "delay": 0,
+            "state": "running",
+            "target": "a.button.group/button.fx-button"
+          },
+          {
+            "type": "CSSAnimation",
+            "name": "bgMove",
+            "duration": 4000,
+            "easing": "linear",
+            "delay": 0,
+            "state": "running",
+            "target": "button.button.group/button.fx-button"
+          },
+          {
+            "type": "CSSAnimation",
+            "name": "maskMove1",
+            "duration": 1000,
+            "easing": "linear",
+            "delay": 0,
+            "state": "running",
+            "target": "img.pointer-events-none.absolute.left-[30%]"
+          },
+          {
+            "type": "CSSAnimation",
+            "name": "objectMove1",
+            "duration": 600,
+            "easing": "linear",
+            "delay": 0,
+            "state": "running",
+            "target": "img.pointer-events-none.absolute.left-[30%]"
+          },
+          {
+            "type": "CSSAnimation",
+            "name": "objectMove2",
+            "duration": 600,
+            "easing": "linear",
+            "delay": 0,
+            "state": "running",
+            "target": "img.pointer-events-none.absolute.left-[30%]"
+          },
+          {
+            "type": "CSSAnimation",
+            "name": "maskMove2",
+            "duration": 1000,
+            "easing": "linear",
+            "delay": 500,
+            "state": "running",
+            "target": "img.pointer-events-none.absolute.left-[62%]"
+          },
+          {
+            "type": "CSSAnimation",
+            "name": "objectMove3",
+            "duration": 600,
+            "easing": "linear",
+            "delay": 0,
+            "state": "running",
+            "target": "img.pointer-events-none.absolute.left-[62%]"
+          },
+          {
+            "type": "CSSAnimation",
+            "name": "maskMove2",
+            "duration": 1000,
+            "easing": "linear",
+            "delay": 750,
+            "state": "running",
+            "target": "img.pointer-events-none.absolute.left-[64%]"
+          },
+          {
+            "type": "CSSAnimation",
+            "name": "objectMove4",
+            "duration": 600,
+            "easing": "linear",
+            "delay": 0,
+            "state": "running",
+            "target": "img.pointer-events-none.absolute.left-[64%]"
+          },
+          {
+            "type": "CSSAnimation",
+            "name": "pulsePin",
+            "duration": 3000,
+            "easing": "linear",
+            "delay": 0,
+            "state": "running",
+            "target": "div.pulse.pointer-events-none.absolute"
+          },
+          {
+            "type": "CSSAnimation",
+            "name": "bgMove",
+            "duration": 4000,
+            "easing": "linear",
+            "delay": 0,
+            "state": "running",
+            "target": "button.accept-cookie.button.group/button"
+          }
+        ]
+      },
+      "videos": [
+        {
+          "src": "https://cdn.pentayazilim.com/media/media_item/default/4034/5246/video-k%C4%B1sa1.mp4",
+          "preview": "https://cdn.pentayazilim.com/media/media_item/default/4034/5246/video-kısa1.mp4",
+          "poster": "",
+          "autoplay": true,
+          "loop": true,
+          "muted": true,
+          "playing": false,
+          "w": 1600,
+          "h": 900
+        },
+        {
+          "src": "https://cdn.pentayazilim.com/assets/video/22.mp4",
+          "preview": "",
+          "poster": "https://cdn.pentayazilim.com/assets/image/other/46.webp",
+          "autoplay": true,
+          "loop": true,
+          "muted": true,
+          "playing": true,
+          "w": 1920,
+          "h": 1080
+        }
+      ],
+      "mediaCount": 342,
+      "errors": [],
+      "mediaSample": [
+        "https://www.pentayazilim.com/assets/image/other/2.webp",
+        "https://www.pentayazilim.com/assets/image/other/1.webp",
+        "https://www.pentayazilim.com/assets/image/other/60.webp",
+        "https://www.pentayazilim.com/build/assets/iconfont-DE355UQX.woff",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-Regular-B7-HCoUw.woff2",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-Thin-Bt3k4kjw.woff2",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-Medium-xtKiKV_v.woff2",
+        "https://cdn.pentayazilim.com/assets/image/icon/tr.webp",
+        "https://cdn.pentayazilim.com/assets/image/other/2.webp",
+        "https://cdn.pentayazilim.com/assets/image/other/40.webp",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-Bold-pePbyUGf.woff2",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-SemiBold-C-J9NBy8.woff2",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-Italic-4YaSBP9x.woff2",
+        "https://cdn.pentayazilim.com/assets/image/icon/england.webp",
+        "https://cdn.pentayazilim.com/assets/image/icon/germany.webp",
+        "https://cdn.pentayazilim.com/assets/image/icon/turkey.webp",
+        "https://cdn.pentayazilim.com/assets/image/icon/en.webp",
+        "https://cdn.pentayazilim.com/assets/image/icon/de.webp",
+        "https://cdn.pentayazilim.com/penta-logo/matrix-en.webp",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-MediumItalic-C0QK4JXF.woff2",
+        "https://cdn.pentayazilim.com/assets/image/icon/402.webp",
+        "https://cdn.pentayazilim.com/media/media_item/default/21/102/responsive-images/41___webp_1920_1080.webp",
+        "https://cdn.pentayazilim.com/assets/image/other/46.webp",
+        "https://cdn.pentayazilim.com/assets/image/icon/401.webp",
+        "https://cdn.pentayazilim.com/media/media_item/default/24/105/responsive-images/12___webp_189_176.webp",
+        "https://cdn.pentayazilim.com/media/media_item/default/25/106/responsive-images/13___webp_290_432.webp",
+        "https://cdn.pentayazilim.com/media/media_item/default/22/103/responsive-images/10___webp_682_464.webp",
+        "https://cdn.pentayazilim.com/media/media_item/default/23/104/responsive-images/11___webp_97_93.webp",
+        "https://cdn.pentayazilim.com/assets/image/other/3001.webp",
+        "https://cdn.pentayazilim.com/assets/video/22.mp4"
+      ]
+    },
+    {
+      "name": "hakkimizda",
+      "url": "https://www.pentayazilim.com/hakkimizda/",
+      "scrollSteps": [
+        {
+          "step": 0,
+          "scrollY": 0,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "scrollY": 1630,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "scrollY": 3260,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "scrollY": 4890,
+          "animations": [
+            {
+              "type": "CSSTransition",
+              "name": "transform",
+              "duration": 1000,
+              "easing": "ease",
+              "delay": 0,
+              "state": "running",
+              "target": "div.swiper-wrapper.!items-center"
+            },
+            {
+              "type": "CSSTransition",
+              "name": "transform",
+              "duration": 1000,
+              "easing": "ease",
+              "delay": 0,
+              "state": "running",
+              "target": "div.swiper-wrapper.!h-fit"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "scrollY": 6521,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "scrollY": 8151,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "scrollY": 9781,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 7,
+          "scrollY": 11411,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 8,
+          "scrollY": 13041,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        }
+      ],
+      "langLogoAnimations": [],
+      "videos": [
+        {
+          "src": "https://cdn.pentayazilim.com/media/media_item/default/1603/2094/penta-yazilim-showreel.mp4",
+          "preview": "",
+          "poster": "",
+          "autoplay": true,
+          "loop": true,
+          "muted": true,
+          "playing": false,
+          "w": 1920,
+          "h": 1080
+        },
+        {
+          "src": "https://cdn.pentayazilim.com/media/media_item/default/1603/2094/penta-yazilim-showreel.mp4",
+          "preview": "",
+          "poster": "",
+          "autoplay": true,
+          "loop": true,
+          "muted": true,
+          "playing": false,
+          "w": 1920,
+          "h": 1080
+        },
+        {
+          "src": "https://cdn.pentayazilim.com/assets/video/105.mp4",
+          "preview": "",
+          "poster": "",
+          "autoplay": true,
+          "loop": true,
+          "muted": true,
+          "playing": false,
+          "w": 400,
+          "h": 502
+        },
+        {
+          "src": "https://cdn.pentayazilim.com/assets/video/105.mp4",
+          "preview": "",
+          "poster": "",
+          "autoplay": true,
+          "loop": true,
+          "muted": true,
+          "playing": false,
+          "w": 400,
+          "h": 502
+        },
+        {
+          "src": "https://cdn.pentayazilim.com/assets/video/22.mp4",
+          "preview": "",
+          "poster": "https://cdn.pentayazilim.com/assets/image/other/46.webp",
+          "autoplay": true,
+          "loop": true,
+          "muted": true,
+          "playing": true,
+          "w": 1920,
+          "h": 1080
+        }
+      ],
+      "mediaCount": 79,
+      "errors": [],
+      "mediaSample": [
+        "https://www.pentayazilim.com/assets/image/other/1.webp",
+        "https://www.pentayazilim.com/assets/image/other/2.webp",
+        "https://cdn.pentayazilim.com/assets/image/other/46.webp",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-Bold-pePbyUGf.woff2",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-SemiBold-C-J9NBy8.woff2",
+        "https://cdn.pentayazilim.com/assets/image/other/40.webp",
+        "https://cdn.pentayazilim.com/assets/video/105.mp4",
+        "https://www.pentayazilim.com/build/assets/iconfont-DE355UQX.woff",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-Thin-Bt3k4kjw.woff2",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-Regular-B7-HCoUw.woff2",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-Medium-xtKiKV_v.woff2",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-Regular-B7-HCoUw.woff2",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-Bold-pePbyUGf.woff2",
+        "https://cdn.pentayazilim.com/media/media_item/default/1981/2613/responsive-images/PENTA-YAZILIM-%2829-of-82%29___webp_453_582.webp",
+        "https://cdn.pentayazilim.com/penta-logo/matrix-en.webp",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-Thin-Bt3k4kjw.woff2",
+        "https://cdn.pentayazilim.com/media/media_item/default/55/136/responsive-images/1031___webp_1606_903.webp",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-Black-BPL79Rh0.woff2",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-Medium-xtKiKV_v.woff2",
+        "https://cdn.pentayazilim.com/media/media_item/default/1603/2094/penta-yazilim-showreel.mp4",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-ExtraLight-DQAnmTtO.woff2",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-SemiBold-C-J9NBy8.woff2",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-MediumItalic-C0QK4JXF.woff2",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-ExtraBold-Cjxqcrnk.woff2",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-Light-BwuzRJoc.woff2",
+        "https://cdn.pentayazilim.com/media/media_item/default/56/137/responsive-images/1029___webp_1606_903.webp",
+        "https://cdn.pentayazilim.com/assets/video/22.mp4",
+        "https://cdn.pentayazilim.com/assets/image/icon/england.webp",
+        "https://cdn.pentayazilim.com/assets/image/icon/germany.webp",
+        "https://cdn.pentayazilim.com/assets/image/icon/en.webp"
+      ]
+    },
+    {
+      "name": "e-ticaret",
+      "url": "https://www.pentayazilim.com/e-ticaret/",
+      "scrollSteps": [
+        {
+          "step": 0,
+          "scrollY": 0,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "scrollY": 886,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "scrollY": 1773,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "scrollY": 2659,
+          "animations": [
+            {
+              "type": "CSSTransition",
+              "name": "transform",
+              "duration": 1000,
+              "easing": "ease",
+              "delay": 0,
+              "state": "running",
+              "target": "div.swiper-wrapper.!h-fit"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "scrollY": 3545,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "scrollY": 4431,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "scrollY": 5318,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 7,
+          "scrollY": 6204,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 8,
+          "scrollY": 7090,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        }
+      ],
+      "langLogoAnimations": [],
+      "videos": [
+        {
+          "src": "https://cdn.pentayazilim.com/media/media_item/default/1982/2614/video-e-ticare2t.mp4",
+          "preview": "",
+          "poster": "",
+          "autoplay": true,
+          "loop": true,
+          "muted": true,
+          "playing": false,
+          "w": 1920,
+          "h": 1080
+        },
+        {
+          "src": "https://cdn.pentayazilim.com/assets/video/105.mp4",
+          "preview": "",
+          "poster": "",
+          "autoplay": true,
+          "loop": true,
+          "muted": true,
+          "playing": false,
+          "w": 400,
+          "h": 502
+        },
+        {
+          "src": "https://cdn.pentayazilim.com/assets/video/105.mp4",
+          "preview": "",
+          "poster": "",
+          "autoplay": true,
+          "loop": true,
+          "muted": true,
+          "playing": false,
+          "w": 400,
+          "h": 502
+        },
+        {
+          "src": "https://cdn.pentayazilim.com/assets/video/22.mp4",
+          "preview": "",
+          "poster": "https://cdn.pentayazilim.com/assets/image/other/46.webp",
+          "autoplay": true,
+          "loop": true,
+          "muted": true,
+          "playing": true,
+          "w": 1920,
+          "h": 1080
+        }
+      ],
+      "mediaCount": 72,
+      "errors": [
+        "Uncaught TurnstileError: [Cloudflare Turnstile] Error: 600010."
+      ],
+      "mediaSample": [
+        "https://www.pentayazilim.com/assets/image/other/1.webp",
+        "https://www.pentayazilim.com/assets/image/other/2.webp",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-Bold-pePbyUGf.woff2",
+        "https://cdn.pentayazilim.com/assets/image/other/46.webp",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-Regular-B7-HCoUw.woff2",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-Black-BPL79Rh0.woff2",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-ExtraLight-DQAnmTtO.woff2",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-SemiBold-C-J9NBy8.woff2",
+        "https://cdn.pentayazilim.com/assets/video/105.mp4",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-Medium-xtKiKV_v.woff2",
+        "https://cdn.pentayazilim.com/assets/video/22.mp4",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-ExtraBold-Cjxqcrnk.woff2",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-Thin-Bt3k4kjw.woff2",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-Light-BwuzRJoc.woff2",
+        "https://www.pentayazilim.com/build/assets/iconfont-DE355UQX.woff",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-Regular-B7-HCoUw.woff2",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-Medium-xtKiKV_v.woff2",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-Bold-pePbyUGf.woff2",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-Thin-Bt3k4kjw.woff2",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-SemiBold-C-J9NBy8.woff2",
+        "https://cdn.pentayazilim.com/assets/image/icon/germany.webp",
+        "https://cdn.pentayazilim.com/assets/image/icon/de.webp",
+        "https://cdn.pentayazilim.com/penta-logo/matrix-en.webp",
+        "https://cdn.pentayazilim.com/assets/image/other/40.webp",
+        "https://cdn.pentayazilim.com/media/media_item/default/1982/2614/video-e-ticare2t.mp4",
+        "https://cdn.pentayazilim.com/assets/image/icon/england.webp",
+        "https://cdn.pentayazilim.com/assets/image/icon/en.webp",
+        "https://cdn.pentayazilim.com/assets/image/icon/turkey.webp",
+        "https://cdn.pentayazilim.com/assets/image/icon/tr.webp",
+        "https://cdn.pentayazilim.com/media/media_item/default/690/892/responsive-images/o%CC%88zel-e-ticaret-gelis%CC%A7tirme___webp_31_31.webp"
+      ]
+    },
+    {
+      "name": "referans-sahibinden",
+      "url": "https://www.pentayazilim.com/referanslar/sahibinden/",
+      "scrollSteps": [
+        {
+          "step": 0,
+          "scrollY": 0,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "blipping",
+              "duration": 750,
+              "easing": "linear",
+              "delay": 375,
+              "state": "running",
+              "target": "path.animate-pulse-1"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "blipping",
+              "duration": 750,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "path.animate-pulse-2"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "scrollY": 775,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "blipping",
+              "duration": 750,
+              "easing": "linear",
+              "delay": 375,
+              "state": "running",
+              "target": "path.animate-pulse-1"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "blipping",
+              "duration": 750,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "path.animate-pulse-2"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "scrollY": 1550,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "blipping",
+              "duration": 750,
+              "easing": "linear",
+              "delay": 375,
+              "state": "running",
+              "target": "path.animate-pulse-1"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "blipping",
+              "duration": 750,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "path.animate-pulse-2"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "scrollY": 2325,
+          "animations": [
+            {
+              "type": "CSSTransition",
+              "name": "transform",
+              "duration": 1000,
+              "easing": "ease",
+              "delay": 0,
+              "state": "running",
+              "target": "div.swiper-wrapper.!h-fit"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "blipping",
+              "duration": 750,
+              "easing": "linear",
+              "delay": 375,
+              "state": "running",
+              "target": "path.animate-pulse-1"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "blipping",
+              "duration": 750,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "path.animate-pulse-2"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "scrollY": 3100,
+          "animations": [
+            {
+              "type": "CSSTransition",
+              "name": "transform",
+              "duration": 1000,
+              "easing": "ease",
+              "delay": 0,
+              "state": "running",
+              "target": "div.swiper-wrapper.!h-fit"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "blipping",
+              "duration": 750,
+              "easing": "linear",
+              "delay": 375,
+              "state": "running",
+              "target": "path.animate-pulse-1"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "blipping",
+              "duration": 750,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "path.animate-pulse-2"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "scrollY": 3874,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "blipping",
+              "duration": 750,
+              "easing": "linear",
+              "delay": 375,
+              "state": "running",
+              "target": "path.animate-pulse-1"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "blipping",
+              "duration": 750,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "path.animate-pulse-2"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "scrollY": 4649,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "blipping",
+              "duration": 750,
+              "easing": "linear",
+              "delay": 375,
+              "state": "running",
+              "target": "path.animate-pulse-1"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "blipping",
+              "duration": 750,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "path.animate-pulse-2"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 7,
+          "scrollY": 5424,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "blipping",
+              "duration": 750,
+              "easing": "linear",
+              "delay": 375,
+              "state": "running",
+              "target": "path.animate-pulse-1"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "blipping",
+              "duration": 750,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "path.animate-pulse-2"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        },
+        {
+          "step": 8,
+          "scrollY": 6199,
+          "animations": [
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "a.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.button.group/button.fx-button"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "blipping",
+              "duration": 750,
+              "easing": "linear",
+              "delay": 375,
+              "state": "running",
+              "target": "path.animate-pulse-1"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "blipping",
+              "duration": 750,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "path.animate-pulse-2"
+            },
+            {
+              "type": "CSSAnimation",
+              "name": "bgMove",
+              "duration": 4000,
+              "easing": "linear",
+              "delay": 0,
+              "state": "running",
+              "target": "button.accept-cookie.button.group/button"
+            }
+          ]
+        }
+      ],
+      "langLogoAnimations": [],
+      "videos": [
+        {
+          "src": "https://cdn.pentayazilim.com/media/media_item/default/4011/5219/Sahibinden.mp4",
+          "preview": "",
+          "poster": "",
+          "autoplay": true,
+          "loop": true,
+          "muted": true,
+          "playing": false,
+          "w": 1920,
+          "h": 1360
+        },
+        {
+          "src": "https://cdn.pentayazilim.com/assets/video/105.mp4",
+          "preview": "",
+          "poster": "",
+          "autoplay": true,
+          "loop": true,
+          "muted": true,
+          "playing": false,
+          "w": 400,
+          "h": 502
+        },
+        {
+          "src": "https://cdn.pentayazilim.com/assets/video/105.mp4",
+          "preview": "",
+          "poster": "",
+          "autoplay": true,
+          "loop": true,
+          "muted": true,
+          "playing": false,
+          "w": 400,
+          "h": 502
+        },
+        {
+          "src": "https://cdn.pentayazilim.com/assets/video/22.mp4",
+          "preview": "",
+          "poster": "https://cdn.pentayazilim.com/assets/image/other/46.webp",
+          "autoplay": true,
+          "loop": true,
+          "muted": true,
+          "playing": true,
+          "w": 1920,
+          "h": 1080
+        }
+      ],
+      "mediaCount": 60,
+      "errors": [],
+      "mediaSample": [
+        "https://www.pentayazilim.com/assets/image/other/1.webp",
+        "https://www.pentayazilim.com/assets/image/other/2.webp",
+        "https://cdn.pentayazilim.com/assets/image/other/46.webp",
+        "https://cdn.pentayazilim.com/penta-logo/73.webp",
+        "https://cdn.pentayazilim.com/assets/video/105.mp4",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-Regular-B7-HCoUw.woff2",
+        "https://cdn.pentayazilim.com/assets/video/22.mp4",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-Thin-Bt3k4kjw.woff2",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-SemiBold-C-J9NBy8.woff2",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-Medium-xtKiKV_v.woff2",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-Light-BwuzRJoc.woff2",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-ExtraBold-Cjxqcrnk.woff2",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-Black-BPL79Rh0.woff2",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-Bold-pePbyUGf.woff2",
+        "https://cdn.pentayazilim.com/build/assets/subset-InterDisplay-ExtraLight-DQAnmTtO.woff2",
+        "https://www.pentayazilim.com/build/assets/iconfont-DE355UQX.woff",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-Regular-B7-HCoUw.woff2",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-Medium-xtKiKV_v.woff2",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-Bold-pePbyUGf.woff2",
+        "https://www.pentayazilim.com/build/assets/subset-InterDisplay-Thin-Bt3k4kjw.woff2",
+        "https://cdn.pentayazilim.com/media/media_item/default/1851/2437/responsive-images/sahibinden-mobil-copy___webp_430_2368.webp",
+        "https://cdn.pentayazilim.com/media/media_item/default/1848/2434/responsive-images/sahibinden-tablet___webp_1024_3461.webp",
+        "https://cdn.pentayazilim.com/media/media_item/default/875/1077/responsive-images/ikili_mockuplar_phone___webp_1000_1000.webp",
+        "https://cdn.pentayazilim.com/assets/image/icon/england.webp",
+        "https://cdn.pentayazilim.com/assets/image/icon/turkey.webp",
+        "https://cdn.pentayazilim.com/assets/image/icon/de.webp",
+        "https://cdn.pentayazilim.com/assets/image/icon/52.webp",
+        "https://cdn.pentayazilim.com/assets/image/icon/tr.webp",
+        "https://cdn.pentayazilim.com/assets/image/icon/germany.webp",
+        "https://cdn.pentayazilim.com/assets/image/other/40.webp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+import { chromium } from 'playwright';
+const s=ms=>new Promise(r=>setTimeout(r,ms));
+const b=await chromium.launch({headless:true,args:['--use-gl=swiftshader','--ignore-gpu-blocklist']});
+const p=await(await b.newContext({viewport:{width:1440,height:900}})).newPage();
+const logs=[],errs=[]; p.on('console',m=>{const t=m.text(); if(t.includes('[char]'))logs.push(t); if(m.type()==='error')errs.push(t);}); p.on('pageerror',e=>errs.push(String(e)));
+await p.goto('http://localhost:5173/',{waitUntil:'networkidle'}); await s(5000);
+await p.mouse.move(250,250); await s(900); await p.screenshot({path:'penta-capture/ob-fbx-1.png'});
+await p.mouse.move(1300,750); await s(900); await p.screenshot({path:'penta-capture/ob-fbx-2.png'});
+console.log(logs.join('\n')||'(char log yok)');
+console.log('errors:',errs.length?errs.slice(0,5):'none');
+await b.close();

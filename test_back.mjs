@@ -1,0 +1,23 @@
+import { chromium } from 'playwright';
+import fs from 'fs';
+const OUT='penta-capture/ob-back'; fs.mkdirSync(OUT,{recursive:true});
+const s=ms=>new Promise(r=>setTimeout(r,ms));
+const b=await chromium.launch({headless:true});
+const p=await(await b.newContext({viewport:{width:1440,height:900}})).newPage();
+const errs=[]; p.on('pageerror',e=>errs.push(String(e))); p.on('console',m=>{if(m.type()==='error')errs.push(m.text());});
+await p.goto('http://localhost:5173/',{waitUntil:'networkidle'}); await s(700);
+const backHome = await p.evaluate(()=>getComputedStyle(document.getElementById('navBack')).display);
+console.log('Geri butonu (home):', backHome);
+await p.click('#menuTrigger'); await s(800);
+await p.click('[data-open="yetenekler"]'); await s(800);
+await p.click('.menu-link[href="#skill-shopify"]'); await s(1600);
+const backInner = await p.evaluate(()=>getComputedStyle(document.getElementById('navBack')).display);
+console.log('Geri butonu (shopify):', backInner);
+await p.screenshot({path:`${OUT}/inner-with-back.png`});
+// geri butonuna bas
+await p.click('#navBack'); await s(1000);
+const st = await p.evaluate(()=>({open:document.getElementById('menuField').classList.contains('is-open'), drilled:document.getElementById('menuField').classList.contains('is-drilled'), active:[...document.querySelectorAll('.menu-level.is-active')].map(l=>l.dataset.id||l.dataset.level)}));
+console.log('Geri sonrası menü:', JSON.stringify(st));
+await p.screenshot({path:`${OUT}/after-back.png`});
+console.log('errors:', errs.length?errs:'none');
+await b.close();

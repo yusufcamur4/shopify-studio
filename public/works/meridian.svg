@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Meridian butik seyahat web sitesi">
+  <defs>
+    <linearGradient id="me-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16323f"/><stop offset="0.5" stop-color="#2e6f7e"/><stop offset="1" stop-color="#e0a86b"/></linearGradient>
+    <linearGradient id="me-card" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#12212a"/><stop offset="1" stop-color="#0b151b"/></linearGradient>
+    <linearGradient id="me-i1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d99b5a"/><stop offset="1" stop-color="#7a4a26"/></linearGradient>
+    <linearGradient id="me-i2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3f8696"/><stop offset="1" stop-color="#14333d"/></linearGradient>
+    <linearGradient id="me-i3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7e93a6"/><stop offset="1" stop-color="#2c3b49"/></linearGradient>
+    <linearGradient id="me-i4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5aa07e"/><stop offset="1" stop-color="#234a38"/></linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="#0b151b"/>
+
+  <!-- HERO PHOTO -->
+  <rect x="0" y="0" width="1200" height="396" fill="url(#me-sky)"/>
+  <circle cx="980" cy="104" r="44" fill="#f7ead0" opacity="0.9"/>
+  <path d="M0 300 L210 250 L430 300 L640 232 L880 296 L1080 244 L1200 286 L1200 396 L0 396 Z" fill="#173039" opacity="0.82"/>
+  <path d="M0 344 L300 300 L560 344 L820 296 L1080 340 L1200 320 L1200 396 L0 396 Z" fill="#0c1c23" opacity="0.92"/>
+  <g opacity="0.5" fill="#0c1c23"><path d="M150 396 v-44 l18 -10 18 10 v44 Z"/><path d="M520 396 v-54 l16 -12 16 12 v54 Z"/><path d="M900 396 v-40 l20 -12 20 12 v40 Z"/></g>
+
+  <!-- NAV -->
+  <text x="56" y="58" font-family="Arial" font-size="22" font-weight="bold" letter-spacing="4" fill="#f4f1ea">MERIDIAN</text>
+  <g font-family="Arial" font-size="12" letter-spacing="1" fill="#eaf1f0">
+    <text x="640" y="56">Varış Noktaları</text><text x="780" y="56">Deneyimler</text><text x="892" y="56">Hakkımızda</text>
+  </g>
+  <rect x="1016" y="36" width="128" height="36" rx="18" fill="#ffffff"/>
+  <text x="1042" y="59" font-family="Arial" font-size="12" letter-spacing="1" fill="#13212a">Giriş Yap</text>
+
+  <!-- HERO COPY -->
+  <text x="56" y="160" font-family="Arial" font-size="12" letter-spacing="4" fill="#ffe6c2">BUTİK SEYAHAT KÜRASYONU · 2026</text>
+  <text x="52" y="232" font-family="Georgia, serif" font-size="60" fill="#ffffff">Az gidilen</text>
+  <text x="52" y="298" font-family="Georgia, serif" font-size="60" font-style="italic" fill="#ffe3b6">yollar için.</text>
+
+  <!-- SEARCH BAR -->
+  <rect x="56" y="330" width="1010" height="58" rx="29" fill="#ffffff"/>
+  <g font-family="Arial" font-size="10" letter-spacing="1.5" fill="#8aa0a8">
+    <text x="88" y="352">NEREYE</text><text x="356" y="352">GİDİŞ</text><text x="560" y="352">DÖNÜŞ</text><text x="764" y="352">MİSAFİR</text>
+  </g>
+  <g font-family="Arial" font-size="14" fill="#13212a">
+    <text x="88" y="372">Kapadokya</text><text x="356" y="372">14 Haz</text><text x="560" y="372">18 Haz</text><text x="764" y="372">2 yetişkin</text>
+  </g>
+  <line x1="336" y1="346" x2="336" y2="372" stroke="#dfe6e4"/><line x1="540" y1="346" x2="540" y2="372" stroke="#dfe6e4"/><line x1="744" y1="346" x2="744" y2="372" stroke="#dfe6e4"/>
+  <circle cx="1034" cy="359" r="22" fill="#1b3a4b"/>
+  <path d="M1028 359 h12 m-5 -5 l5 5 -5 5" stroke="#ffe3b6" stroke-width="2" fill="none"/>
+
+  <!-- TRUST STRIP -->
+  <g font-family="Arial" font-size="12" fill="#7e93a0">
+    <text x="56" y="438">★ 4.9 Tripadvisor</text><text x="240" y="438">· 12.000+ gezgin</text><text x="430" y="438">· 40 ülke</text><text x="560" y="438">· 7/24 concierge</text>
+  </g>
+  <text x="56" y="470" font-family="Arial" font-size="13" letter-spacing="3" fill="#9fb2bd">SEÇİLİ ROTALAR</text>
+  <text x="1024" y="470" font-family="Arial" font-size="12" fill="#ffe3b6">Tümü (62) →</text>
+  <line x1="56" y1="482" x2="1144" y2="482" stroke="#1a3039"/>
+
+  <!-- DESTINATION CARDS -->
+  <g>
+    <rect x="56" y="498" width="260" height="278" rx="10" fill="url(#me-card)" stroke="#1c3340"/>
+    <rect x="332" y="498" width="260" height="278" rx="10" fill="url(#me-card)" stroke="#1c3340"/>
+    <rect x="608" y="498" width="260" height="278" rx="10" fill="url(#me-card)" stroke="#1c3340"/>
+    <rect x="884" y="498" width="260" height="278" rx="10" fill="url(#me-card)" stroke="#1c3340"/>
+    <rect x="72" y="514" width="228" height="146" rx="6" fill="url(#me-i1)"/>
+    <rect x="348" y="514" width="228" height="146" rx="6" fill="url(#me-i2)"/>
+    <rect x="624" y="514" width="228" height="146" rx="6" fill="url(#me-i3)"/>
+    <rect x="900" y="514" width="228" height="146" rx="6" fill="url(#me-i4)"/>
+    <!-- favori + rozet -->
+    <g fill="#0b151b" opacity="0.55"><circle cx="280" cy="536" r="14"/><circle cx="556" cy="536" r="14"/><circle cx="832" cy="536" r="14"/><circle cx="1108" cy="536" r="14"/></g>
+    <g fill="#ffe3b6"><path d="M280 532 c-2-3-7-1-7 2 0 3 7 7 7 7 s7-4 7-7 c0-3-5-5-7-2"/><path d="M556 532 c-2-3-7-1-7 2 0 3 7 7 7 7 s7-4 7-7 c0-3-5-5-7-2"/><path d="M832 532 c-2-3-7-1-7 2 0 3 7 7 7 7 s7-4 7-7 c0-3-5-5-7-2"/><path d="M1108 532 c-2-3-7-1-7 2 0 3 7 7 7 7 s7-4 7-7 c0-3-5-5-7-2"/></g>
+    <g font-family="Georgia, serif" font-size="20" fill="#eaf1f3"><text x="72" y="694">Kapadokya</text><text x="348" y="694">Likya Kıyısı</text><text x="624" y="694">Karadeniz</text><text x="900" y="694">Mardin</text></g>
+    <g font-family="Arial" font-size="11" fill="#7e93a0"><text x="72" y="716">3 gece · sıcak hava balonu</text><text x="348" y="716">5 gece · özel yat</text><text x="624" y="716">4 gece · yayla evi</text><text x="900" y="716">3 gece · taş konak</text></g>
+    <g font-family="Arial" font-size="11" fill="#ffd9a0"><text x="72" y="742">★ 4.9 (320)</text><text x="348" y="742">★ 4.8 (210)</text><text x="624" y="742">★ 5.0 (96)</text><text x="900" y="742">★ 4.9 (140)</text></g>
+    <g font-family="Arial" font-size="9" fill="#7e93a0"><text x="72" y="766">kişi başı</text><text x="348" y="766">kişi başı</text><text x="624" y="766">kişi başı</text><text x="900" y="766">kişi başı</text></g>
+    <g font-family="Georgia, serif" font-size="17" fill="#ffe3b6"><text x="180" y="766">₺12.400</text><text x="456" y="766">₺21.900</text><text x="732" y="766">₺9.800</text><text x="1008" y="766">₺11.200</text></g>
+  </g>
+</svg>
