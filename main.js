@@ -448,16 +448,41 @@ if (modal) {
     statusEl.className = 'modal__status' + (kind ? ' ' + kind : '');
   }
 
+  // canlı giriş filtresi: telefona harf, ada rakam girilmesin
+  const nameEl = form.querySelector('#f-name');
+  const emailEl = form.querySelector('#f-email');
+  const phoneEl = form.querySelector('#f-phone');
+  const msgEl = form.querySelector('#f-msg');
+  phoneEl?.addEventListener('input', () => {
+    const cleaned = phoneEl.value.replace(/[^\d+()\s-]/g, ''); // sadece rakam ve telefon karakterleri
+    if (cleaned !== phoneEl.value) phoneEl.value = cleaned;
+  });
+  nameEl?.addEventListener('input', () => {
+    const cleaned = nameEl.value.replace(/\d/g, ''); // rakamları at
+    if (cleaned !== nameEl.value) nameEl.value = cleaned;
+  });
+
+  const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  function validateForm() {
+    const phoneDigits = (phoneEl.value.match(/\d/g) || []).length;
+    const checks = [
+      [nameEl, nameEl.value.trim().length >= 2 && !/\d/.test(nameEl.value)], // dolu + rakamsız
+      [emailEl, EMAIL_RE.test(emailEl.value.trim())],                        // geçerli e-posta
+      [phoneEl, phoneDigits >= 10],                                          // en az 10 rakam
+      [msgEl, msgEl.value.trim().length > 0],                                // dolu
+    ];
+    let firstInvalid = null;
+    checks.forEach(([el, ok]) => {
+      el.closest('.field')?.classList.toggle('invalid', !ok);
+      if (!ok && !firstInvalid) firstInvalid = el;
+    });
+    if (firstInvalid) firstInvalid.focus();
+    return !firstInvalid;
+  }
+
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
-    // basit doğrulama
-    let valid = true;
-    form.querySelectorAll('[required]').forEach((f) => {
-      const ok = f.checkValidity();
-      f.closest('.field')?.classList.toggle('invalid', !ok);
-      if (!ok) valid = false;
-    });
-    if (!valid) { setStatus(t('required'), 'err'); return; }
+    if (!validateForm()) { setStatus(t('required'), 'err'); return; }
     // bot tuzağı dolmuşsa sessizce başarı göster
     if (form.querySelector('[name="_honey"]').value) { setStatus(t('thanks'), 'ok'); return; }
 

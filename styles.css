@@ -251,13 +251,15 @@ html.menu-open{ overflow:hidden; }
 .hero__title .word{ display:inline-block; }
 .hero__title em{ font-style:italic; color:var(--accent); }
 
-.hero__lede{ margin-top:clamp(1.6rem,3vh,2.2rem); max-width:54ch; color:var(--text-mute);
-  font-size:clamp(1rem,1.5vw,1.22rem); line-height:1.6; }
+/* video üzerinde okunabilirlik için parlak metin + hafif gölge */
+.hero__lede{ margin-top:clamp(1.6rem,3vh,2.2rem); max-width:54ch; color:rgba(244,242,237,.96);
+  font-size:clamp(1rem,1.5vw,1.22rem); line-height:1.6; text-shadow:0 1px 16px rgba(0,0,0,.5); }
 
 .hero__credits{ display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; margin-top:clamp(1.6rem,3vh,2.2rem); }
-.hero__credits .mono{ color:var(--text-dim); margin-right:.4rem; }
-.hero__credits .chip{ font-family:var(--mono); font-size:.72rem; letter-spacing:.06em; color:var(--text-mute);
-  border:1px solid var(--line); border-radius:var(--r-pill); padding:.4rem .85rem; transition:color var(--dur-fast), border-color var(--dur-fast); }
+.hero__credits .mono{ color:var(--text-mute); margin-right:.4rem; text-shadow:0 1px 10px rgba(0,0,0,.5); }
+.hero__credits .chip{ font-family:var(--mono); font-size:.72rem; letter-spacing:.06em; color:var(--text);
+  border:1px solid var(--line-strong); border-radius:var(--r-pill); padding:.4rem .85rem; text-shadow:0 1px 8px rgba(0,0,0,.45);
+  transition:color var(--dur-fast), border-color var(--dur-fast); }
 .hero__credits .chip:hover{ color:var(--accent); border-color:var(--accent); }
 
 .hero__actions{ display:flex; align-items:center; gap:1rem; flex-wrap:wrap; margin-top:clamp(2rem,4vh,2.8rem); }

@@ -164,7 +164,7 @@
         <p class="lede" data-en="I’m Okan Bayraktar. For over a decade I’ve spoken the language of the image. A journey that began behind the Arri Alexa on professional series, film and commercial sets took me to the director’s chair at Turkish Airlines, and from there to more than twenty countries. I shot every city like a film — chasing the light, the frame and the emotion.">Ben Okan Bayraktar. On yılı aşkın süredir görüntünün dilini konuşuyorum. Profesyonel dizi, sinema ve reklam setlerinde Arri Alexa'nın arkasında başladığım yolculuk; beni Türk Hava Yolları'nın yönetmen koltuğuna, oradan da dünyanın yirmiden fazla ülkesine taşıdı. Her şehri bir film gibi çektim — ışığı, kadrajı ve duyguyu kovalayarak.</p>
         <p data-en="I carry that on-set discipline into work watched by millions today: producing content for Nusret’s 46M followers, standing behind the camera and drone on a 9M-subscriber channel. Now I bring that same cinematic eye to my creative studio — building brands not just a website, but a cohesive visual world that lands in the first second. I unite strategy, art direction, visual identity and the digital storefront under one hand, one intent.">Bu set disiplinini bugün milyonların izlediği işlerde sürdürüyorum: 46 milyon takipçili Nusret için içerik üretiyor, 9 milyonluk kanalda kameranın ve dronun arkasında durdum. Şimdi aynı sinematik gözü kreatif stüdyoma taşıyorum — markalara yalnızca bir web sitesi değil, ilk saniyede hissettiren bütünlüklü bir görsel dünya kuruyorum. Strateji, art direction, görsel kimlik ve dijital vitrini tek elde, tek niyetle birleştiriyorum.</p>
         <dl class="about__meta">
-          <dt data-en="Expertise">Uzmanlık</dt><dd data-en="Visual Direction · Web · Brand Identity">Görsel Yönetmenlik · Web · Marka Kimliği</dd>
+          <dt data-en="Expertise">Uzmanlık</dt><dd data-en="Shopify Consulting &amp; CRO · Web &amp; E-Commerce Development · Custom Theme from Scratch · Performance &amp; SEO · Digital Marketing">Shopify Danışmanlığı &amp; CRO · Web &amp; E-Ticaret Geliştirme · Sıfırdan Özel Tema · Performans &amp; SEO · Dijital Pazarlama</dd>
           <dt data-en="Signature Work">İmza İşler</dt><dd>THY · Nusret · Orkun Işıtmak</dd>
         </dl>
       </div>
@@ -645,16 +645,6 @@
     </div>
   </section>
 
-  <!-- ======================= STATS ========================= -->
-  <section class="section" id="stats" data-page="about">
-    <div class="stats-eyebrow" data-reveal><span class="blip" aria-hidden="true"></span> <span data-i18n="stats_eyebrow">Gerçek rakamlar · sürekli güncel</span></div>
-    <div class="stats">
-      <div class="stat" data-stat><div class="stat__num"><span data-count="120">0</span><span class="suf">+</span></div><div class="stat__label" data-en="Stores completed">Tamamlanan mağaza</div></div>
-      <div class="stat" data-stat><div class="stat__num"><span class="suf">%</span><span data-count="92">0</span></div><div class="stat__label" data-en="Average speed score">Ortalama hız puanı</div></div>
-      <div class="stat" data-stat><div class="stat__num"><span class="suf">%</span><span data-count="38">0</span></div><div class="stat__label" data-en="Average conversion lift">Ortalama dönüşüm artışı</div></div>
-      <div class="stat" data-stat><div class="stat__num"><span data-count="7">0</span></div><div class="stat__label" data-en="Years of experience">Yıl deneyim</div></div>
-    </div>
-  </section>
 
   <!-- ====================== 05 İLETİŞİM ==================== -->
   <section class="contact" id="contact" data-page="contact">
@@ -687,14 +677,14 @@
       <div class="footer__cols">
         <div class="footer__col">
           <h4>Index</h4>
-          <a href="#about" data-en="01 About">01 Hakkımda</a>
-          <a href="#works" data-en="02 Work">02 Yapılan İşler</a>
-          <a href="#skills" data-en="03 Capabilities">03 Yetenekler</a>
+          <a href="#about" data-en="About">Hakkımda</a>
+          <a href="#works" data-en="Work">Yapılan İşler</a>
+          <a href="#skills" data-en="Capabilities">Yetenekler</a>
         </div>
         <div class="footer__col">
           <h4 data-en="Channels">Kanallar</h4>
-          <a href="#process" data-en="04 Process">04 Süreç</a>
-          <a href="#contact" data-en="05 Contact">05 İletişim</a>
+          <a href="#process" data-en="Process">Süreç</a>
+          <a href="#contact" data-en="Contact">İletişim</a>
           <a href="mailto:okanbayraktarr@gmail.com" data-en="Email">E-posta</a>
         </div>
         <div class="footer__col">
@@ -739,7 +729,7 @@
         <form class="modal__form" id="contactForm" novalidate>
           <div class="field">
             <label for="f-name" data-en="Full Name">Ad Soyad</label>
-            <input id="f-name" name="name" type="text" autocomplete="name" required placeholder="Adınız" data-en-ph="Your name" />
+            <input id="f-name" name="name" type="text" autocomplete="name" required pattern="[^0-9]+" title="Ad soyad rakam içeremez" placeholder="Adınız" data-en-ph="Your name" />
           </div>
           <div class="field-row">
             <div class="field">
@@ -748,7 +738,7 @@
             </div>
             <div class="field">
               <label for="f-phone" data-en="Phone">Telefon</label>
-              <input id="f-phone" name="phone" type="tel" autocomplete="tel" placeholder="05xx xxx xx xx" data-en-ph="+90 5xx xxx xx xx" />
+              <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required pattern="[0-9+()\s-]{10,}" title="Geçerli bir telefon numarası girin (en az 10 rakam)" placeholder="05xx xxx xx xx" data-en-ph="+90 5xx xxx xx xx" />
             </div>
           </div>
           <div class="field">
