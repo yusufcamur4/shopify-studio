@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Sıradan şablon mağaza">
+  <rect width="1600" height="1000" fill="#16161a"/>
+
+  <!-- NAV (basit, default) -->
+  <rect x="80" y="56" width="150" height="20" rx="3" fill="#3a3a40"/>
+  <g fill="#34343a"><rect x="900" y="60" width="90" height="14" rx="3"/><rect x="1010" y="60" width="90" height="14" rx="3"/><rect x="1120" y="60" width="90" height="14" rx="3"/><rect x="1230" y="60" width="90" height="14" rx="3"/></g>
+  <rect x="1430" y="54" width="90" height="26" rx="3" fill="#2f2f35"/>
+  <line x1="80" y1="104" x2="1520" y2="104" stroke="#26262b"/>
+
+  <!-- HERO (boş, düz) -->
+  <rect x="80" y="128" width="1440" height="430" rx="4" fill="#1b1b20"/>
+  <rect x="124" y="250" width="560" height="36" rx="4" fill="#2e2e34"/>
+  <rect x="124" y="304" width="420" height="22" rx="4" fill="#28282e"/>
+  <rect x="124" y="338" width="360" height="22" rx="4" fill="#28282e"/>
+  <rect x="124" y="396" width="170" height="46" rx="4" fill="#3a3a42"/>
+  <!-- görsel yok: gri boşluk -->
+  <rect x="980" y="160" width="500" height="366" rx="4" fill="#202026"/>
+  <line x1="980" y1="160" x2="1480" y2="526" stroke="#26262c" stroke-width="1"/><line x1="1480" y1="160" x2="980" y2="526" stroke="#26262c" stroke-width="1"/>
+
+  <!-- TRUST yok, sadece zayıf başlık -->
+  <rect x="80" y="640" width="240" height="18" rx="3" fill="#2c2c32"/>
+  <line x1="80" y1="682" x2="1520" y2="682" stroke="#26262b"/>
+
+  <!-- PRODUCT GRID (düz kutular) -->
+  <g>
+    <rect x="80" y="704" width="344" height="262" rx="4" fill="#1c1c21"/>
+    <rect x="446" y="704" width="344" height="262" rx="4" fill="#1c1c21"/>
+    <rect x="812" y="704" width="344" height="262" rx="4" fill="#1c1c21"/>
+    <rect x="1178" y="704" width="342" height="262" rx="4" fill="#1c1c21"/>
+    <rect x="96" y="720" width="312" height="170" rx="3" fill="#232329"/>
+    <rect x="462" y="720" width="312" height="170" rx="3" fill="#232329"/>
+    <rect x="828" y="720" width="312" height="170" rx="3" fill="#232329"/>
+    <rect x="1194" y="720" width="310" height="170" rx="3" fill="#232329"/>
+    <g fill="#2c2c33"><rect x="96" y="908" width="180" height="14" rx="3"/><rect x="462" y="908" width="180" height="14" rx="3"/><rect x="828" y="908" width="180" height="14" rx="3"/><rect x="1194" y="908" width="180" height="14" rx="3"/></g>
+    <g fill="#26262c"><rect x="96" y="934" width="90" height="12" rx="3"/><rect x="462" y="934" width="90" height="12" rx="3"/><rect x="828" y="934" width="90" height="12" rx="3"/><rect x="1194" y="934" width="90" height="12" rx="3"/></g>
+  </g>
+</svg>

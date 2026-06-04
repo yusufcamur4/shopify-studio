@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Premium e-ticaret mağazası">
+  <defs>
+    <linearGradient id="pr-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#13110d"/><stop offset="1" stop-color="#0a0907"/></linearGradient>
+    <linearGradient id="pr-hero" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a1d10"/><stop offset="0.55" stop-color="#6a4a22"/><stop offset="1" stop-color="#15100a"/></linearGradient>
+    <radialGradient id="pr-glow" cx="0.72" cy="0.4" r="0.7"><stop offset="0" stop-color="#f0c277" stop-opacity="0.5"/><stop offset="1" stop-color="#f0c277" stop-opacity="0"/></radialGradient>
+    <linearGradient id="pr-model" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c69a63"/><stop offset="1" stop-color="#6e4a2c"/></linearGradient>
+    <linearGradient id="pr-p1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d8c3a6"/><stop offset="1" stop-color="#9a8164"/></linearGradient>
+    <linearGradient id="pr-p2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b98a5e"/><stop offset="1" stop-color="#6b4528"/></linearGradient>
+    <linearGradient id="pr-p3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a9a294"/><stop offset="1" stop-color="#5f5a4e"/></linearGradient>
+    <linearGradient id="pr-p4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#caa978"/><stop offset="1" stop-color="#7c5a34"/></linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#pr-bg)"/>
+
+  <!-- ANNOUNCEMENT BAR -->
+  <rect x="0" y="0" width="1600" height="32" fill="#e9b96a"/>
+  <text x="800" y="21" text-anchor="middle" font-family="Arial" font-size="12" letter-spacing="2" fill="#1a120a">YENİ SEZON · 1000₺ ÜZERİ ÜCRETSİZ KARGO · 30 GÜN KOŞULSUZ İADE</text>
+
+  <!-- NAV -->
+  <text x="80" y="80" font-family="Georgia, serif" font-size="30" letter-spacing="8" fill="#f2e6d2">MAISON</text>
+  <g font-family="Arial" font-size="14" letter-spacing="1.5" fill="#cdb79a">
+    <text x="760" y="78">Yeni</text><text x="840" y="78">Kadın</text><text x="930" y="78">Erkek</text><text x="1030" y="78">Koleksiyon</text>
+  </g>
+  <circle cx="1410" cy="73" r="5" fill="none" stroke="#cdb79a" stroke-width="1.5"/><line x1="1414" y1="77" x2="1419" y2="82" stroke="#cdb79a" stroke-width="1.5"/>
+  <text x="1450" y="78" font-family="Arial" font-size="14" fill="#cdb79a">Hesap</text>
+  <circle cx="1530" cy="73" r="13" fill="#e9b96a"/><text x="1530" y="78" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#1a120a">2</text>
+  <line x1="80" y1="104" x2="1520" y2="104" stroke="#2a2017"/>
+
+  <!-- HERO -->
+  <rect x="80" y="128" width="1440" height="430" rx="10" fill="url(#pr-hero)"/>
+  <rect x="80" y="128" width="1440" height="430" rx="10" fill="url(#pr-glow)"/>
+  <!-- model/foto blok -->
+  <rect x="980" y="128" width="540" height="430" rx="10" fill="url(#pr-model)" opacity="0.92"/>
+  <circle cx="1250" cy="320" r="120" fill="#1c120a" opacity="0.25"/>
+  <rect x="980" y="128" width="540" height="430" rx="10" fill="none" stroke="#f0d9a8" stroke-width="1" opacity="0.25"/>
+  <text x="128" y="222" font-family="Arial" font-size="13" letter-spacing="5" fill="#f0c277">SS/26 KAPSÜL KOLEKSİYON</text>
+  <text x="124" y="316" font-family="Georgia, serif" font-size="78" fill="#f6ead4">Zamansız</text>
+  <text x="124" y="398" font-family="Georgia, serif" font-size="78" font-style="italic" fill="#e9b96a">parçalar.</text>
+  <text x="128" y="446" font-family="Arial" font-size="16" fill="#cbb597">Organik keten ve geri dönüştürülmüş yün — sınırlı üretim.</text>
+  <rect x="128" y="476" width="220" height="52" rx="26" fill="#e9b96a"/>
+  <text x="170" y="509" font-family="Arial" font-size="14" letter-spacing="2" fill="#1a120a">KOLEKSİYONU GÖR →</text>
+  <rect x="364" y="476" width="160" height="52" rx="26" fill="none" stroke="#7a5f38"/>
+  <text x="398" y="509" font-family="Arial" font-size="14" letter-spacing="1.5" fill="#d8c4a3">LOOKBOOK</text>
+
+  <!-- TRUST ROW -->
+  <g font-family="Arial" font-size="14" fill="#9a8a6f">
+    <text x="80" y="606">★★★★★  4.9 / 5</text><text x="280" y="606">· 12.400+ mutlu müşteri</text><text x="560" y="606">· Aynı gün kargo</text><text x="780" y="606">· Güvenli ödeme</text>
+  </g>
+  <text x="80" y="666" font-family="Arial" font-size="14" letter-spacing="3" fill="#b29c78">EN ÇOK SEÇİLENLER</text>
+  <text x="1430" y="666" font-family="Arial" font-size="13" fill="#e9b96a">Tümü →</text>
+  <line x1="80" y1="682" x2="1520" y2="682" stroke="#2a2017"/>
+
+  <!-- PRODUCT GRID -->
+  <g>
+    <rect x="80" y="704" width="344" height="262" rx="10" fill="#181109" stroke="#2c2117"/>
+    <rect x="446" y="704" width="344" height="262" rx="10" fill="#181109" stroke="#2c2117"/>
+    <rect x="812" y="704" width="344" height="262" rx="10" fill="#181109" stroke="#2c2117"/>
+    <rect x="1178" y="704" width="342" height="262" rx="10" fill="#181109" stroke="#2c2117"/>
+    <rect x="96" y="720" width="312" height="160" rx="6" fill="url(#pr-p1)"/>
+    <rect x="462" y="720" width="312" height="160" rx="6" fill="url(#pr-p2)"/>
+    <rect x="828" y="720" width="312" height="160" rx="6" fill="url(#pr-p3)"/>
+    <rect x="1194" y="720" width="310" height="160" rx="6" fill="url(#pr-p4)"/>
+    <!-- rozet -->
+    <rect x="112" y="734" width="60" height="22" rx="11" fill="#1a120a"/><text x="126" y="749" font-family="Arial" font-size="10" letter-spacing="1" fill="#e9b96a">YENİ</text>
+    <rect x="828" y="734" width="68" height="22" rx="11" fill="#8a5a2c"/><text x="842" y="749" font-family="Arial" font-size="10" letter-spacing="1" fill="#fff">-%20</text>
+    <!-- favori -->
+    <g fill="#1a120a" opacity="0.55"><circle cx="392" cy="746" r="14"/><circle cx="758" cy="746" r="14"/><circle cx="1124" cy="746" r="14"/><circle cx="1488" cy="746" r="14"/></g>
+    <g fill="#e9b96a"><path d="M392 741 c-2-3-8-1-8 2 0 4 8 8 8 8 s8-4 8-8 c0-3-6-5-8-2"/><path d="M758 741 c-2-3-8-1-8 2 0 4 8 8 8 8 s8-4 8-8 c0-3-6-5-8-2"/><path d="M1124 741 c-2-3-8-1-8 2 0 4 8 8 8 8 s8-4 8-8 c0-3-6-5-8-2"/><path d="M1488 741 c-2-3-8-1-8 2 0 4 8 8 8 8 s8-4 8-8 c0-3-6-5-8-2"/></g>
+    <!-- isim -->
+    <g font-family="Georgia, serif" font-size="18" fill="#ecdcc2"><text x="96" y="912">Keten Gömlek</text><text x="462" y="912">Yün Palto</text><text x="828" y="912">Saten Elbise</text><text x="1194" y="912">Deri Çanta</text></g>
+    <!-- rating -->
+    <g font-family="Arial" font-size="11" fill="#a98f66"><text x="96" y="934">★ 4.8 · 214 yorum</text><text x="462" y="934">★ 4.9 · 88 yorum</text><text x="828" y="934">★ 4.7 · 156 yorum</text><text x="1194" y="934">★ 5.0 · 64 yorum</text></g>
+    <!-- fiyat -->
+    <g font-family="Arial" font-size="16" fill="#e9b96a"><text x="96" y="958">₺1.290</text><text x="462" y="958">₺3.450</text><text x="828" y="958">₺2.180</text><text x="1194" y="958">₺2.760</text></g>
+    <text x="900" y="958" font-family="Arial" font-size="12" fill="#7a6a52" text-decoration="line-through">₺2.725</text>
+    <!-- sepete ekle -->
+    <g font-family="Arial" font-size="18" fill="#5a4327"><text x="396" y="958">＋</text><text x="762" y="958">＋</text><text x="1128" y="958">＋</text><text x="1492" y="958">＋</text></g>
+  </g>
+</svg>
