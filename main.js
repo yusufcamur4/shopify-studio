@@ -60,6 +60,41 @@ if (menuTrigger && menuField) {
   const stack = []; // drill yığını (parent seviyeler)
   let current = level0;
 
+  // müşteri deneyim videosu — menü açılınca oynar, kapanınca durur/susar
+  const menuVideo = document.getElementById('menuVideo');
+  const menuTestimonial = document.getElementById('menuTestimonial');
+  const menuVideoSound = document.getElementById('menuVideoSound');
+  if (menuVideo && menuTestimonial) {
+    // dosya geçerli bir videoysa görünür yap (yoksa boş kara kutu göstermeyiz)
+    const revealTestimonial = () => {
+      menuTestimonial.classList.add('has-video');
+      if (menuField.classList.contains('is-open')) playMenuVideo(); // menü zaten açıksa hemen başlat
+    };
+    // metadata <video> etiketi main.js'ten önce parse edildiği için zaten yüklenmiş olabilir
+    if (menuVideo.readyState >= 1) revealTestimonial();
+    else menuVideo.addEventListener('loadedmetadata', revealTestimonial, { once: true });
+    if (menuVideoSound) {
+      menuVideoSound.addEventListener('click', (e) => {
+        e.stopPropagation(); // tıklama menüyü kapatmasın
+        menuVideo.muted = !menuVideo.muted;
+        menuVideoSound.firstElementChild.textContent = menuVideo.muted ? '🔇' : '🔊';
+        if (!menuVideo.muted) menuVideo.play().catch(() => {});
+      });
+    }
+  }
+  function playMenuVideo() {
+    if (!menuVideo || !menuTestimonial.classList.contains('has-video') || reduce) return;
+    menuVideo.currentTime = 0;
+    menuVideo.play().catch(() => {});
+  }
+  function stopMenuVideo() {
+    if (!menuVideo) return;
+    menuVideo.pause();
+    menuVideo.currentTime = 0;
+    menuVideo.muted = true; // bir sonraki açılış yine sessiz başlasın
+    if (menuVideoSound) menuVideoSound.firstElementChild.textContent = '🔇';
+  }
+
   function showLevel(next, parentTitle) {
     if (next === current) return;
     current.classList.add('is-leaving');
@@ -79,12 +114,14 @@ if (menuTrigger && menuField) {
     current.classList.add('is-active'); // seviye-0 öğeleri stagger ile gelsin
     menuTrigger.setAttribute('aria-expanded', 'true');
     menuField.setAttribute('aria-hidden', 'false');
+    playMenuVideo();
   }
   function closeMenu() {
     root.classList.remove('menu-open');
     menuField.classList.remove('is-open');
     menuTrigger.setAttribute('aria-expanded', 'false');
     menuField.setAttribute('aria-hidden', 'true');
+    stopMenuVideo();
     // kapanınca seviyeyi sıfırla (panel inerken görünmez)
     setTimeout(() => {
       stack.length = 0;
