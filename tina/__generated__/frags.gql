@@ -1,0 +1,321 @@
+fragment SeoParts on Seo {
+  __typename
+  title
+  description
+  og_image
+  keywords
+}
+
+fragment HeroParts on Hero {
+  __typename
+  eyebrow
+  eyebrow_en
+  title_tr
+  title_en
+  lede
+  lede_en
+  credits_label
+  credits_label_en
+  chips
+  chip_last
+  chip_last_en
+  cta_primary
+  cta_primary_en
+  cta_secondary
+  cta_secondary_en
+  scroll
+  scroll_en
+  marquee1 {
+    __typename
+    tr
+    en
+  }
+  marquee2 {
+    __typename
+    tr
+    en
+  }
+}
+
+fragment HakkindaParts on Hakkinda {
+  __typename
+  eyebrow
+  eyebrow_en
+  heading_pre
+  heading_whisper
+  heading_post
+  heading_pre_en
+  heading_whisper_en
+  heading_post_en
+  p1
+  p1_en
+  p2
+  p2_en
+  expertise_label
+  expertise_label_en
+  expertise
+  expertise_en
+  signature_label
+  signature_label_en
+  signature
+}
+
+fragment YeteneklerParts on Yetenekler {
+  __typename
+  lede
+  lede_en
+  techstack_label
+  techstack_label_en
+  techstack
+  skills {
+    __typename
+    tag
+    tag_en
+    title
+    title_en
+    lead
+    lead_en
+    body
+    body_en
+    items {
+      __typename
+      tr
+      en
+    }
+    tags
+  }
+}
+
+fragment SurecParts on Surec {
+  __typename
+  eyebrow
+  eyebrow_en
+  intro
+  intro_en
+  steps {
+    __typename
+    n_label
+    n_label_en
+    title
+    title_en
+    body
+    body_en
+  }
+}
+
+fragment IletisimParts on Iletisim {
+  __typename
+  eyebrow
+  eyebrow_en
+  title_pre
+  title_whisper
+  title_post
+  title_pre_en
+  title_whisper_en
+  title_post_en
+  lede
+  lede_en
+  cta
+  cta_en
+  tag
+  tag_en
+}
+
+fragment FormParts on Form {
+  __typename
+  aside_eyebrow
+  aside_eyebrow_en
+  aside_title
+  aside_title_en
+  aside_lede
+  aside_lede_en
+  name_label
+  name_label_en
+  name_ph
+  name_ph_en
+  email_ph
+  email_ph_en
+  phone_label
+  phone_label_en
+  phone_ph
+  phone_ph_en
+  type_label
+  type_label_en
+  options {
+    __typename
+    value
+    label
+    label_en
+  }
+  msg_label
+  msg_label_en
+  msg_ph
+  msg_ph_en
+  submit
+  submit_en
+  subject
+}
+
+fragment AyarlarParts on Ayarlar {
+  __typename
+  phone
+  phone_display
+  email
+  location
+  location_en
+}
+
+fragment FooterParts on Footer {
+  __typename
+  tag
+  tag_en
+  col1_title
+  col1 {
+    __typename
+    label
+    label_en
+    href
+  }
+  col2_title
+  col2_title_en
+  col2 {
+    __typename
+    label
+    label_en
+    href
+  }
+  col3_title
+  col3_title_en
+  col4_title
+  copyright
+  studio
+  studio_en
+  rights
+  rights_en
+}
+
+fragment MenuParts on Menu {
+  __typename
+  submenu_title
+  submenu_title_en
+  submenu {
+    __typename
+    label
+    label_en
+    href
+  }
+  meta1
+  caption
+  caption_en
+}
+
+fragment EtiketlerParts on Etiketler {
+  __typename
+  items {
+    __typename
+    key
+    tr
+    en
+  }
+}
+
+fragment LandingsParts on Landings {
+  __typename
+  crumb
+  crumb_en
+  eyebrow
+  eyebrow_en
+  title
+  title_en
+  lede
+  lede_en
+  project
+  cta
+  cta_en
+  cta2
+  cta2_en
+  image
+  image_alt
+  trust {
+    __typename
+    value
+    label
+    label_en
+  }
+  benefits {
+    __typename
+    title
+    title_en
+    body
+    body_en
+  }
+  includes {
+    __typename
+    tr
+    en
+  }
+  steps {
+    __typename
+    title
+    title_en
+    body
+    body_en
+  }
+  faq {
+    __typename
+    q
+    q_en
+    a
+    a_en
+  }
+  band_h
+  band_h_en
+  band_p
+  band_p_en
+  band_cta
+  band_cta_en
+}
+
+fragment ProjelerParts on Projeler {
+  __typename
+  title
+  title_en
+  order
+  category {
+    ... on Kategoriler {
+      __typename
+      name
+      name_en
+      slug
+      order
+    }
+    ... on Document {
+      _sys {
+        filename
+        basename
+        hasReferences
+        breadcrumbs
+        path
+        relativePath
+        extension
+      }
+      id
+    }
+  }
+  badge
+  badge_en
+  metric
+  metric_en
+  url
+  cover
+  featured
+  body
+}
+
+fragment KategorilerParts on Kategoriler {
+  __typename
+  name
+  name_en
+  slug
+  order
+}

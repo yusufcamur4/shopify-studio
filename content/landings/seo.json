@@ -1,0 +1,43 @@
+{
+  "crumb": "Performans & SEO", "crumb_en": "Performance & SEO",
+  "eyebrow": "HİZMET · SEO & HIZ", "eyebrow_en": "SERVICE · SEO & SPEED",
+  "title": "Daha *hızlı* site, daha çok ziyaretçi.", "title_en": "A *faster* site, more visitors.",
+  "lede": "Hız ve teknik SEO; doğrudan dönüşüm ve sıralama demek. Core Web Vitals'tan başlayıp sürekli izliyoruz.",
+  "lede_en": "Speed and technical SEO mean conversion and ranking. We start with Core Web Vitals and monitor continuously.",
+  "project": "SEO & Performans",
+  "cta": "Ücretsiz Hız & SEO Analizi", "cta_en": "Free Speed & SEO Audit",
+  "cta2": "Örnek işleri gör", "cta2_en": "See example work",
+  "image": "/works/orbit.svg", "image_alt": "Performans paneli örneği",
+  "trust": [
+    { "value": "★ 4.9", "label": "puan", "label_en": "rating" },
+    { "value": "Lighthouse 95+" },
+    { "value": "%92", "label": "hız", "label_en": "speed" }
+  ],
+  "benefits": [
+    { "title": "Çekirdek metrikler", "title_en": "Core metrics", "body": "LCP, CLS, INP — yeşile çekiyoruz.", "body_en": "LCP, CLS, INP — we get them into the green." },
+    { "title": "Teknik SEO", "title_en": "Technical SEO", "body": "Schema, indexlenebilirlik, içerik yapısı.", "body_en": "Schema, indexability, content structure." },
+    { "title": "Sürekli bakım", "title_en": "Ongoing care", "body": "İzleme ve raporla güvende kal.", "body_en": "Stay safe with monitoring and reports." }
+  ],
+  "includes": [
+    { "tr": "Core Web Vitals (LCP · CLS · INP)", "en": "" },
+    { "tr": "Görsel / font / bundle optimizasyonu", "en": "Image / font / bundle optimization" },
+    { "tr": "Lazy-load & code-splitting", "en": "Lazy-load & code-splitting" },
+    { "tr": "Schema.org & teknik SEO", "en": "Schema.org & technical SEO" },
+    { "tr": "İzleme & aylık rapor", "en": "Monitoring & monthly report" },
+    { "tr": "Güvenlik & güncelleme", "en": "Security & updates" }
+  ],
+  "steps": [
+    { "title": "Ölçüm", "title_en": "Measure", "body": "Mevcut durum denetimi.", "body_en": "Baseline audit." },
+    { "title": "İyileştirme", "title_en": "Improve", "body": "Düzeltmeleri uygula.", "body_en": "Apply fixes." },
+    { "title": "Doğrulama", "title_en": "Verify", "body": "Tekrar test, doğrula.", "body_en": "Re-test and confirm." },
+    { "title": "İzleme", "title_en": "Monitor", "body": "Takip ve rapor.", "body_en": "Track and report." }
+  ],
+  "faq": [
+    { "q": "Sıralamam ne zaman artar?", "q_en": "When will my ranking improve?", "a": "Teknik düzeltmeler hızlı; sıralama 4-12 haftada gelişir.", "a_en": "Technical fixes are fast; ranking improves over 4–12 weeks." },
+    { "q": "Hangi platformlar?", "q_en": "Which platforms?", "a": "Shopify, WordPress ve özel kodlu siteler.", "a_en": "Shopify, WordPress and custom-coded sites." },
+    { "q": "Tek seferlik mi, aylık mı?", "q_en": "One-off or monthly?", "a": "Tek seferlik audit veya aylık bakım — sana göre.", "a_en": "A one-off audit or monthly maintenance — your choice." }
+  ],
+  "band_h": "Hızını ölçelim, eksiğini görelim.", "band_h_en": "Let’s measure your speed and find the gaps.",
+  "band_p": "Ücretsiz hız & SEO analiziyle başla, nerede olduğunu gör.", "band_p_en": "Start with a free speed & SEO audit and see where you stand.",
+  "band_cta": "Ücretsiz Analiz Al", "band_cta_en": "Get Free Analysis"
+}

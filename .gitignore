@@ -2,3 +2,8 @@ node_modules
 dist
 .DS_Store
 .env
+
+# TinaCMS — derleme/uretilen ciktilar (deploy sirasinda yeniden uretilir)
+admin
+public/admin
+tina/__generated__/*.db

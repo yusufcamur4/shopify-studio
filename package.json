@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "tinacms dev --datalayer-port 9111 -c \"vite\"",
+    "build": "tinacms build --datalayer-port 9111 && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -13,8 +13,10 @@
   },
   "devDependencies": {
     "@gltf-transform/cli": "^4.3.0",
+    "@tinacms/cli": "^2.4.3",
     "fbx2gltf": "^0.9.7-p1",
     "playwright": "^1.60.0",
+    "tinacms": "^3.9.0",
     "vite": "^7.0.0"
   }
 }

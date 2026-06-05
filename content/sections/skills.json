@@ -1,0 +1,79 @@
+{
+  "lede": "Strateji, tasarım ve mühendislik tek elde. Her proje; ölçülebilir hedef, temiz kod ve devredilebilir bir yapı ile teslim edilir.",
+  "lede_en": "Strategy, design and engineering under one roof. Every project ships with measurable goals, clean code and a handover-ready structure.",
+  "techstack_label": "Kullanılan yığın",
+  "techstack_label_en": "Stack used",
+  "techstack": ["Shopify", "Liquid", "Hydrogen", "React", "TypeScript", "Vite", "Tailwind", "GSAP", "Three.js", "Figma", "GA4", "Klaviyo"],
+  "skills": [
+    {
+      "tag": "Strateji", "tag_en": "Strategy",
+      "title": "Shopify Danışmanlığı & CRO", "title_en": "Shopify Consulting & CRO",
+      "lead": "Mağaza denetiminden ölçülebilir büyümeye.", "lead_en": "From store audit to measurable growth.",
+      "body": "Mevcut mağazanın teknik ve UX denetimi, dönüşüm darboğazlarının tespiti ve önceliklendirilmiş bir yol haritası.", "body_en": "A technical and UX audit of your current store, identifying conversion bottlenecks, plus a prioritised roadmap.",
+      "items": [
+        { "tr": "Teknik & UX audit raporu", "en": "Technical & UX audit report" },
+        { "tr": "Funnel / heatmap analizi (GA4 · Hotjar)", "en": "Funnel / heatmap analysis (GA4 · Hotjar)" },
+        { "tr": "A/B test kurgusu & hipotez yönetimi", "en": "A/B test setup & hypothesis management" },
+        { "tr": "Checkout ve ödeme optimizasyonu", "en": "Checkout and payment optimization" },
+        { "tr": "App yığını sadeleştirme", "en": "App stack simplification" }
+      ],
+      "tags": ["GA4", "Hotjar", "A/B Test", "Checkout Ext."]
+    },
+    {
+      "tag": "Geliştirme", "tag_en": "Development",
+      "title": "Web & E-Ticaret Geliştirme", "title_en": "Web & E-Commerce Development",
+      "lead": "Markaya özel, hızlı ve ölçeklenebilir arayüzler.", "lead_en": "Bespoke, fast and scalable interfaces.",
+      "body": "Bileşen tabanlı mimari, tasarım sistemi ve düzenleyici dostu yapıyla; büyümeye hazır bir kod tabanı.", "body_en": "A growth-ready codebase built on component architecture, a design system and an editor-friendly structure.",
+      "items": [
+        { "tr": "Component tabanlı mimari & tasarım sistemi", "en": "Component-based architecture & design system" },
+        { "tr": "Headless / Hydrogen seçeneği", "en": "Headless / Hydrogen option" },
+        { "tr": "CMS & API entegrasyonları", "en": "CMS & API integrations" },
+        { "tr": "Responsive, RTL ve erişilebilirlik (WCAG)", "en": "Responsive, RTL and accessibility (WCAG)" },
+        { "tr": "Tasarım token'ları ile tutarlı UI", "en": "Consistent UI with design tokens" }
+      ],
+      "tags": ["React", "Vite", "TypeScript", "Tailwind", "Hydrogen"]
+    },
+    {
+      "tag": "Tema", "tag_en": "Theme",
+      "title": "Sıfırdan Özel Shopify Tema", "title_en": "Custom Shopify Theme from Scratch",
+      "lead": "Hazır temaya bağlı kalmadan, tamamen size ait.", "lead_en": "Entirely yours, free of any prebuilt theme.",
+      "body": "OS 2.0 mimarisiyle; mağaza sahibine Theme Editor üzerinden tam kontrol veren esnek bir yapı.", "body_en": "A flexible structure built on OS 2.0 that gives the store owner full control through the Theme Editor.",
+      "items": [
+        { "tr": "OS 2.0 JSON şablonlar", "en": "OS 2.0 JSON templates" },
+        { "tr": "Esnek section & block sistemi", "en": "Flexible section & block system" },
+        { "tr": "Metafield & metaobject modelleme", "en": "Metafield & metaobject modelling" },
+        { "tr": "Çoklu dil ve para birimi (Markets)", "en": "Multi-language and currency (Markets)" },
+        { "tr": "Editor dostu, dokümante schema", "en": "Editor-friendly, documented schema" }
+      ],
+      "tags": ["Liquid", "Sections", "Metafields", "Web Components"]
+    },
+    {
+      "tag": "Performans", "tag_en": "Performance",
+      "title": "Performans, SEO & Bakım", "title_en": "Performance, SEO & Maintenance",
+      "lead": "Hız bir puan değil; doğrudan dönüşüm ve sıralama.", "lead_en": "Speed isn’t a score; it’s conversion and ranking.",
+      "body": "Çekirdek web metrikleri, teknik SEO ve yayın sonrası sürekli izleme — sürdürülebilir bir hız.", "body_en": "Core web vitals, technical SEO and continuous post-launch monitoring — sustainable speed.",
+      "items": [
+        { "tr": "Core Web Vitals (LCP · CLS · INP)", "en": "" },
+        { "tr": "Görsel, font ve bundle optimizasyonu", "en": "Image, font and bundle optimization" },
+        { "tr": "Lazy-load & code-splitting", "en": "" },
+        { "tr": "Schema.org ve teknik SEO", "en": "Schema.org and technical SEO" },
+        { "tr": "İzleme, raporlama ve sürekli destek", "en": "Monitoring, reporting and ongoing support" }
+      ],
+      "tags": ["Lighthouse 95+", "Schema.org", "CDN", "Edge"]
+    },
+    {
+      "tag": "Pazarlama", "tag_en": "Marketing",
+      "title": "Dijital Pazarlama", "title_en": "Digital Marketing",
+      "lead": "Doğru kitleye, doğru mesajla ulaş.", "lead_en": "The right audience, the right message.",
+      "body": "Reklam, sosyal medya ve içerikle ölçülebilir trafik ve satış — okunabilir raporlamayla.", "body_en": "Measurable traffic and sales through ads, social media and content — with reporting you can actually read.",
+      "items": [
+        { "tr": "Google & Meta reklam kampanyaları", "en": "Google & Meta ad campaigns" },
+        { "tr": "Sosyal medya yönetimi", "en": "Social media management" },
+        { "tr": "İçerik & kreatif üretimi", "en": "Content & creative production" },
+        { "tr": "E-posta pazarlama (Klaviyo)", "en": "Email marketing (Klaviyo)" },
+        { "tr": "Performans raporlama & optimizasyon", "en": "Performance reporting & optimization" }
+      ],
+      "tags": ["Google Ads", "Meta", "GA4", "Klaviyo"]
+    }
+  ]
+}

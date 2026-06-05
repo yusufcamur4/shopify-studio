@@ -1,0 +1,13 @@
+{
+  "items": [
+    { "key": "menu", "tr": "Menü", "en": "Menu" },
+    { "key": "m_about", "tr": "Hakkımda", "en": "About" },
+    { "key": "m_skills", "tr": "Yetenekler", "en": "Capabilities" },
+    { "key": "m_works", "tr": "İşler", "en": "Work" },
+    { "key": "m_process", "tr": "Süreç", "en": "Process" },
+    { "key": "m_contact", "tr": "İletişim", "en": "Contact" },
+    { "key": "works_title", "tr": "Daha Önce Yapılan İşler", "en": "Selected Work" },
+    { "key": "skills_title", "tr": "Yetenekler", "en": "Capabilities" },
+    { "key": "crumb_home", "tr": "Anasayfa", "en": "Home" }
+  ]
+}

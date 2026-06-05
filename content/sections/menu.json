@@ -1,0 +1,16 @@
+{
+  "submenu_title": "Yetenekler",
+  "submenu_title_en": "Capabilities",
+  "submenu": [
+    { "label": "Shopify Danışmanlığı & CRO", "label_en": "Shopify Consulting & CRO", "href": "#skill-shopify" },
+    { "label": "Web & E-Ticaret Geliştirme", "label_en": "Web & E-Commerce Development", "href": "#skill-web" },
+    { "label": "Sıfırdan Özel Tema", "label_en": "Custom Theme from Scratch", "href": "#skill-tema" },
+    { "label": "Performans & SEO", "label_en": "Performance & SEO", "href": "#skill-seo" },
+    { "label": "Dijital Pazarlama", "label_en": "Digital Marketing", "href": "#skill-pazarlama" }
+  ],
+  "back": "Geri",
+  "back_en": "Back",
+  "meta1": "OB° · Kreatif Stüdyo",
+  "caption": "Müşteri Deneyimi",
+  "caption_en": "Client Experience"
+}

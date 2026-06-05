@@ -1,0 +1,83 @@
+{
+  "eyebrow": "Görsel Yönetmen · Kreatif Stüdyo — İstanbul",
+  "eyebrow_en": "Visual Director · Creative Studio — Istanbul",
+  "title_tr": [
+    "Markanı.",
+    "*sinematik* ",
+    "dünyaya taşıyoruz."
+  ],
+  "title_en": [
+    "We bring your brand",
+    "into a *cinematic*",
+    "world"
+  ],
+  "lede": "Sinema setlerinden gelen ışık, ritim ve hikâye disiplinini; markaların web sitesine, görsel kimliğine ve dijital vitrinine taşıyoruz.",
+  "lede_en": "We carry the light, rhythm and storytelling discipline of film sets into brands’ websites, visual identity and digital storefront.",
+  "credits_label": "İŞ BİRLİKLERİ",
+  "credits_label_en": "COLLABORATIONS",
+  "chips": [
+    "THY",
+    "Nusret",
+    "Orkun Işıtmak"
+  ],
+  "chip_last": "20+ ülke",
+  "chip_last_en": "20+ countries",
+  "cta_primary": "Projeyi Konuşalım",
+  "cta_primary_en": "Let’s Talk",
+  "cta_secondary": "İşleri Gör",
+  "cta_secondary_en": "Work",
+  "scroll": "Keşfet",
+  "scroll_en": "Explore",
+  "marquee1": [
+    {
+      "tr": "OB° Stüdyo",
+      "en": "OB° Studio"
+    },
+    {
+      "tr": "Görsel Yönetmenlik",
+      "en": "Visual Direction"
+    },
+    {
+      "tr": "Web Tasarım",
+      "en": "Web Design"
+    },
+    {
+      "tr": "Marka Kimliği",
+      "en": "Brand Identity"
+    },
+    {
+      "tr": "2025 / 2026",
+      "en": "2025 / 2026"
+    },
+    {
+      "tr": "Yeni Projelere Açık",
+      "en": "Open to New Projects"
+    }
+  ],
+  "marquee2": [
+    {
+      "tr": "Sinematografi",
+      "en": "Sinematografi"
+    },
+    {
+      "tr": "Art Direction",
+      "en": "Art Direction"
+    },
+    {
+      "tr": "Dijital Vitrin",
+      "en": "Digital Storefront"
+    },
+    {
+      "tr": "Reklam Filmi",
+      "en": "Commercials"
+    },
+    {
+      "tr": "İçerik Üretimi",
+      "en": "Content Production"
+    },
+    {
+      "tr": "UX",
+      "en": "UX"
+    }
+  ]
+}

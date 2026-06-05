@@ -1,0 +1,25 @@
+{
+  "tag": "— sinematik markalar kuruyoruz",
+  "tag_en": "— building cinematic brands",
+  "col1_title": "Index",
+  "col1": [
+    { "label": "Hakkımda", "label_en": "About", "href": "#about" },
+    { "label": "Yapılan İşler", "label_en": "Work", "href": "#works" },
+    { "label": "Yetenekler", "label_en": "Capabilities", "href": "#skills" }
+  ],
+  "col2_title": "Kanallar",
+  "col2_title_en": "Channels",
+  "col2": [
+    { "label": "Süreç", "label_en": "Process", "href": "#process" },
+    { "label": "İletişim", "label_en": "Contact", "href": "#contact" },
+    { "label": "E-posta", "label_en": "Email", "href": "mailto" }
+  ],
+  "col3_title": "İletişim",
+  "col3_title_en": "Contact",
+  "col4_title": "Index No.",
+  "copyright": "© 2025 / 2026",
+  "studio": "OB° Stüdyo",
+  "studio_en": "OB° Studio",
+  "rights": "Tüm hakları saklıdır",
+  "rights_en": "All rights reserved"
+}

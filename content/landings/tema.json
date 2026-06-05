@@ -1,0 +1,43 @@
+{
+  "crumb": "Özel Tema", "crumb_en": "Custom Theme",
+  "eyebrow": "HİZMET · SHOPIFY TEMA", "eyebrow_en": "SERVICE · SHOPIFY THEME",
+  "title": "Tamamen *sana ait* Shopify teması.", "title_en": "A Shopify theme that’s *entirely yours*.",
+  "lede": "Hazır temaların sınırlarına takılma. OS 2.0 ile esnek, hızlı ve tam kontrol sende.",
+  "lede_en": "Stop hitting the limits of prebuilt themes. With OS 2.0: flexible, fast, and full control in your hands.",
+  "project": "Shopify / E-Ticaret",
+  "cta": "Tema Projeni Konuşalım", "cta_en": "Let’s Discuss Your Theme",
+  "cta2": "Örnek işleri gör", "cta2_en": "See example work",
+  "image": "/works/ayla.svg", "image_alt": "Özel tema örneği",
+  "trust": [
+    { "value": "★ 4.9", "label": "puan", "label_en": "rating" },
+    { "value": "OS 2.0" },
+    { "value": "%92", "label": "hız", "label_en": "speed" }
+  ],
+  "benefits": [
+    { "title": "Tam kontrol", "title_en": "Full control", "body": "Theme Editor'dan her şeyi yönet.", "body_en": "Manage everything from the Theme Editor." },
+    { "title": "Esnek bölümler", "title_en": "Flexible sections", "body": "İstediğin düzeni sürükle-bırak kur.", "body_en": "Build any layout with drag-and-drop." },
+    { "title": "Hızlı & ölçeklenebilir", "title_en": "Fast & scalable", "body": "Performans ilk günden mimaride.", "body_en": "Performance baked into the architecture from day one." }
+  ],
+  "includes": [
+    { "tr": "OS 2.0 JSON şablonlar", "en": "OS 2.0 JSON templates" },
+    { "tr": "Esnek section & block sistemi", "en": "Flexible section & block system" },
+    { "tr": "Metafield & metaobject modelleme", "en": "Metafield & metaobject modelling" },
+    { "tr": "Çoklu dil / para birimi (Markets)", "en": "Multi-language / currency (Markets)" },
+    { "tr": "Editor dostu schema", "en": "Editor-friendly schema" },
+    { "tr": "Devir & dokümantasyon", "en": "Handover & documentation" }
+  ],
+  "steps": [
+    { "title": "Keşif", "title_en": "Discovery", "body": "İhtiyaç ve referanslar.", "body_en": "Needs and references." },
+    { "title": "Mimari", "title_en": "Architecture", "body": "Bölümler ve veri modeli.", "body_en": "Sections and data model." },
+    { "title": "Geliştirme", "title_en": "Development", "body": "Temiz, dokümante Liquid.", "body_en": "Clean, documented Liquid." },
+    { "title": "Devir", "title_en": "Handover", "body": "Eğitim ve destek.", "body_en": "Training and support." }
+  ],
+  "faq": [
+    { "q": "Mevcut ürünlerim korunur mu?", "q_en": "Are my products preserved?", "a": "Evet, veri ve ürünler aynen kalır.", "a_en": "Yes — your data and products stay exactly as they are." },
+    { "q": "App'lerim çalışır mı?", "q_en": "Will my apps work?", "a": "Uyumluluk kontrol edilir, gerekirse alternatif önerilir.", "a_en": "Compatibility is checked; alternatives are suggested if needed." },
+    { "q": "Süre?", "q_en": "How long?", "a": "Kapsama göre 4-8 hafta.", "a_en": "4–8 weeks depending on scope." }
+  ],
+  "band_h": "Sana ait bir tema, sınırsız kontrol.", "band_h_en": "A theme that’s yours, with limitless control.",
+  "band_p": "Mağazanı anlat, özel temanı birlikte planlayalım.", "band_p_en": "Tell me about your store and let’s scope your custom theme.",
+  "band_cta": "Tema Projeni Konuşalım", "band_cta_en": "Let’s Discuss Your Theme"
+}

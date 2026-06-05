@@ -578,7 +578,9 @@ showPage(pageFromHash(location.hash));
 /* ============================================================
    DİL GEÇİŞİ (TR/EN) + 3B logo animasyonu + i18n
    ============================================================ */
-const I18N = {
+// CMS: menü/başlık etiketleri window.__I18N'den gelir (content/settings/labels.json);
+// aşağıdaki sabit yedek, panelde olmayan anahtarlar için kullanılır.
+const I18N_FALLBACK = {
   menu:        { tr: 'Menü', en: 'Menu' },
   m_about:     { tr: 'Hakkımda', en: 'About' },
   m_skills:    { tr: 'Yetenekler', en: 'Capabilities' },
@@ -595,10 +597,19 @@ const I18N = {
   crumb_home:  { tr: 'Anasayfa', en: 'Home' },
   stats_eyebrow:{ tr: 'Gerçek rakamlar · sürekli güncel', en: 'Real numbers · always current' },
 };
-const HERO_TITLE = {
-  tr: '<span class="line"><span class="word">Markanı</span></span><span class="line"><span class="word"><em>sinematik</em> bir</span></span><span class="line"><span class="word">dünyaya taşıyoruz.</span></span>',
-  en: '<span class="line"><span class="word">We bring your brand</span></span><span class="line"><span class="word">into a <em>cinematic</em></span></span><span class="line"><span class="word">world.</span></span>',
-};
+const I18N = { ...I18N_FALLBACK, ...(window.__I18N || {}) };
+// CMS: hero başlığı window.__HERO_TITLE'dan (düz metin satır dizileri) gelir.
+// HTML yapısı burada kurulur; *kelime* vurgusu <em>'e çevrilir. Animasyon aynı.
+const buildHeroTitle = (lines) =>
+  (lines || [])
+    .map((l) => `<span class="line"><span class="word">${String(l).replace(/\*(.+?)\*/g, '<em>$1</em>')}</span></span>`)
+    .join('');
+const HERO_TITLE = window.__HERO_TITLE
+  ? { tr: buildHeroTitle(window.__HERO_TITLE.tr), en: buildHeroTitle(window.__HERO_TITLE.en) }
+  : {
+      tr: '<span class="line"><span class="word">Markanı</span></span><span class="line"><span class="word"><em>sinematik</em> bir</span></span><span class="line"><span class="word">dünyaya taşıyoruz.</span></span>',
+      en: '<span class="line"><span class="word">We bring your brand</span></span><span class="line"><span class="word">into a <em>cinematic</em></span></span><span class="line"><span class="word">world.</span></span>',
+    };
 const langWrap = document.getElementById('lang');
 function setLang(lang) {
   if (root.getAttribute('data-lang') === lang) return;

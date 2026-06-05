@@ -1,0 +1,43 @@
+{
+  "crumb": "Shopify Danışmanlığı", "crumb_en": "Shopify Consulting",
+  "eyebrow": "HİZMET · CRO", "eyebrow_en": "SERVICE · CRO",
+  "title": "Shopify mağazanı *satışa* çeviren sistem.", "title_en": "A system that turns your Shopify store into *sales*.",
+  "lede": "Trafik var ama satış yok mu? Mağazanı baştan sona denetliyor, dönüşüm darboğazlarını kapatıyor ve ölçülebilir büyüme için net bir yol haritası kuruyorum.",
+  "lede_en": "Plenty of traffic but no sales? I audit your store end-to-end, close the conversion bottlenecks and build a clear roadmap for measurable growth.",
+  "project": "Shopify / E-Ticaret",
+  "cta": "Ücretsiz Mağaza Analizi", "cta_en": "Free Store Analysis",
+  "cta2": "Örnek işleri gör", "cta2_en": "See example work",
+  "image": "/works/lustra.svg", "image_alt": "Shopify mağaza örneği",
+  "trust": [
+    { "value": "★ 4.9", "label": "müşteri puanı", "label_en": "client rating" },
+    { "value": "120+", "label": "proje", "label_en": "projects" },
+    { "value": "+%38", "label": "ort. dönüşüm artışı", "label_en": "avg. conversion lift" }
+  ],
+  "benefits": [
+    { "title": "Dönüşüm odaklı", "title_en": "Conversion-first", "body": "Her karar tek soruya bağlı: bu satışı artırır mı?", "body_en": "Every decision answers one question: does this increase sales?" },
+    { "title": "Veriyle yönetilen", "title_en": "Data-driven", "body": "GA4, heatmap ve A/B test ile; tahmin değil, kanıt.", "body_en": "GA4, heatmaps and A/B tests — evidence, not guesswork." },
+    { "title": "Hızlı etki", "title_en": "Fast impact", "body": "İlk 30 günde uygulanabilir, somut kazançlar.", "body_en": "Actionable wins you can ship within the first 30 days." }
+  ],
+  "includes": [
+    { "tr": "Teknik & UX audit raporu", "en": "Technical & UX audit report" },
+    { "tr": "Funnel / heatmap analizi (GA4 · Hotjar)", "en": "Funnel / heatmap analysis (GA4 · Hotjar)" },
+    { "tr": "A/B test kurgusu & hipotez yönetimi", "en": "A/B test setup & hypothesis management" },
+    { "tr": "Checkout ve ödeme optimizasyonu", "en": "Checkout and payment optimization" },
+    { "tr": "App yığını sadeleştirme", "en": "App stack simplification" },
+    { "tr": "Önceliklendirilmiş 90 günlük yol haritası", "en": "Prioritised 90-day roadmap" }
+  ],
+  "steps": [
+    { "title": "Analiz", "title_en": "Analysis", "body": "Mağaza ve veri denetimi.", "body_en": "Store and data audit." },
+    { "title": "Hipotez", "title_en": "Hypotheses", "body": "Darboğaz ve fırsat listesi.", "body_en": "Bottleneck & opportunity list." },
+    { "title": "Uygulama", "title_en": "Execution", "body": "Test ve iyileştirme.", "body_en": "Tests and improvements." },
+    { "title": "Ölçüm", "title_en": "Measurement", "body": "Sonuç raporu ve sonraki adımlar.", "body_en": "Results report and next steps." }
+  ],
+  "faq": [
+    { "q": "Ne kadar sürede sonuç alırım?", "q_en": "How soon will I see results?", "a": "İlk hızlı kazançlar 2-4 haftada gelir; kalıcı dönüşüm artışı test döngüleriyle 8-12 haftada belirginleşir.", "a_en": "The first quick wins land in 2–4 weeks; a lasting conversion lift becomes clear over 8–12 weeks of test cycles." },
+    { "q": "Mevcut temamla çalışır mı?", "q_en": "Does it work with my current theme?", "a": "Evet. Audit tema bağımsızdır; gerekirse iyileştirmeleri mevcut temana uygularız.", "a_en": "Yes. The audit is theme-agnostic; if needed, improvements are applied to your existing theme." },
+    { "q": "Sadece analiz mi, uygulama da var mı?", "q_en": "Analysis only, or implementation too?", "a": "İkisi de. İstersen yol haritasını veririm, istersen uçtan uca uygularım.", "a_en": "Both. I can hand over the roadmap, or implement it end-to-end — your call." }
+  ],
+  "band_h": "Mağazanın gerçek potansiyelini ortaya çıkaralım.", "band_h_en": "Let’s uncover your store’s real potential.",
+  "band_p": "Ücretsiz 30 dakikalık analizle başlayalım; ne kaybettiğini ve nasıl kazanacağını birlikte görelim.", "band_p_en": "Let’s start with a free 30-minute analysis and see together what you’re losing and how to win it back.",
+  "band_cta": "Ücretsiz Analiz Al", "band_cta_en": "Get Free Analysis"
+}

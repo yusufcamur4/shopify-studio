@@ -1,0 +1,43 @@
+{
+  "crumb": "Dijital Pazarlama", "crumb_en": "Digital Marketing",
+  "eyebrow": "HİZMET · PAZARLAMA", "eyebrow_en": "SERVICE · MARKETING",
+  "title": "Doğru kitleye, *doğru* mesajla.", "title_en": "The right audience, the *right* message.",
+  "lede": "Reklam, sosyal medya ve içerikle ölçülebilir trafik ve satış. Harcadığın her kuruşun nereye gittiğini gör.",
+  "lede_en": "Measurable traffic and sales through ads, social and content. See exactly where every lira goes.",
+  "project": "Dijital Pazarlama",
+  "cta": "Ücretsiz Pazarlama Görüşmesi", "cta_en": "Free Marketing Call",
+  "cta2": "Örnek işleri gör", "cta2_en": "See example work",
+  "image": "/works/meridian.svg", "image_alt": "Pazarlama kampanyası örneği",
+  "trust": [
+    { "value": "★ 4.9", "label": "puan", "label_en": "rating" },
+    { "value": "Google & Meta" },
+    { "value": "ROAS", "label": "odaklı", "label_en": "focused" }
+  ],
+  "benefits": [
+    { "title": "Ölçülebilir", "title_en": "Measurable", "body": "Her kampanya ROAS ve dönüşümle raporlanır.", "body_en": "Every campaign reported with ROAS and conversions." },
+    { "title": "Kreatif + performans", "title_en": "Creative + performance", "body": "Sinematik içerik, performans kurgusu.", "body_en": "Cinematic content with a performance strategy." },
+    { "title": "Tek elden", "title_en": "One hand", "body": "Strateji, reklam ve içerik bir arada.", "body_en": "Strategy, ads and content together." }
+  ],
+  "includes": [
+    { "tr": "Google & Meta reklam yönetimi", "en": "Google & Meta ad management" },
+    { "tr": "Sosyal medya yönetimi", "en": "Social media management" },
+    { "tr": "İçerik & kreatif üretimi", "en": "Content & creative production" },
+    { "tr": "E-posta pazarlama (Klaviyo)", "en": "Email marketing (Klaviyo)" },
+    { "tr": "Dönüşüm takibi (GA4)", "en": "Conversion tracking (GA4)" },
+    { "tr": "Aylık performans raporu", "en": "Monthly performance report" }
+  ],
+  "steps": [
+    { "title": "Strateji", "title_en": "Strategy", "body": "Kitle ve teklif.", "body_en": "Audience and offer." },
+    { "title": "Kreatif", "title_en": "Creative", "body": "İçerik ve reklam.", "body_en": "Content and ads." },
+    { "title": "Yayın", "title_en": "Launch", "body": "Kanallarda yayına al.", "body_en": "Go live across channels." },
+    { "title": "Optimizasyon", "title_en": "Optimize", "body": "Veriyle iyileştir.", "body_en": "Iterate on the data." }
+  ],
+  "faq": [
+    { "q": "Bütçe ne olmalı?", "q_en": "What budget do I need?", "a": "Sektöre göre planlarız; küçük bütçeyle test ederiz.", "a_en": "We plan by sector and start by testing with a small budget." },
+    { "q": "Reklam bütçesi dahil mi?", "q_en": "Is ad spend included?", "a": "Hayır, yönetim ücreti ayrıdır; reklam bütçesi sana ait.", "a_en": "No — the management fee is separate; the ad budget is yours." },
+    { "q": "Hangi platformlar?", "q_en": "Which platforms?", "a": "Google, Meta ve gerekirse TikTok.", "a_en": "Google, Meta, and TikTok where it fits." }
+  ],
+  "band_h": "Bütçeni boşa harcama; ölçülebilir büyü.", "band_h_en": "Don’t waste budget — grow measurably.",
+  "band_p": "30 dakika konuşalım; bütçene uygun bir plan çıkaralım.", "band_p_en": "Let’s talk for 30 minutes and map a plan that fits your budget.",
+  "band_cta": "Ücretsiz Görüşme Al", "band_cta_en": "Get a Free Call"
+}

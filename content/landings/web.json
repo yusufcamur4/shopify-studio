@@ -1,0 +1,43 @@
+{
+  "crumb": "Web & E-Ticaret", "crumb_en": "Web & E-Commerce",
+  "eyebrow": "HİZMET · WEB", "eyebrow_en": "SERVICE · WEB",
+  "title": "Markana özel, *hızlı* web & e-ticaret.", "title_en": "Bespoke, *fast* web & e-commerce.",
+  "lede": "Şablon değil; markanı yansıtan, dönüşüm için kurgulanmış, büyümeye hazır bir site.",
+  "lede_en": "Not a template — a site that reflects your brand, is built for conversion and ready to grow.",
+  "project": "Web Sitesi",
+  "cta": "Ücretsiz Teklif Al", "cta_en": "Get a Free Quote",
+  "cta2": "Örnek işleri gör", "cta2_en": "See example work",
+  "image": "/works/orbit.svg", "image_alt": "Web projesi örneği",
+  "trust": [
+    { "value": "★ 4.9", "label": "puan", "label_en": "rating" },
+    { "value": "120+", "label": "proje", "label_en": "projects" },
+    { "value": "%92", "label": "hız puanı", "label_en": "speed score" }
+  ],
+  "benefits": [
+    { "title": "Markaya özel", "title_en": "Brand-specific", "body": "Hazır tema değil; markanın diline göre tasarım.", "body_en": "No off-the-shelf theme — design shaped by your brand voice." },
+    { "title": "Hızlı & sağlam", "title_en": "Fast & solid", "body": "Temiz kod, yüksek performans, kolay bakım.", "body_en": "Clean code, high performance and easy maintenance." },
+    { "title": "Dönüşüm için", "title_en": "Built to convert", "body": "Her bölüm bir hedefe hizmet eder.", "body_en": "Every section serves a goal." }
+  ],
+  "includes": [
+    { "tr": "Component tabanlı mimari & tasarım sistemi", "en": "Component architecture & design system" },
+    { "tr": "Headless / Hydrogen seçeneği", "en": "Headless / Hydrogen option" },
+    { "tr": "CMS & API entegrasyonları", "en": "CMS & API integrations" },
+    { "tr": "Responsive & erişilebilirlik (WCAG)", "en": "Responsive & accessibility (WCAG)" },
+    { "tr": "Çoklu dil / para birimi", "en": "Multi-language / currency" },
+    { "tr": "SEO temelli kurulum", "en": "SEO-ready setup" }
+  ],
+  "steps": [
+    { "title": "Keşif", "title_en": "Discovery", "body": "Hedef, kitle, kapsam.", "body_en": "Goals, audience, scope." },
+    { "title": "Mimari", "title_en": "Architecture", "body": "Akış ve yapı.", "body_en": "Flow and structure." },
+    { "title": "Tasarım & Geliştirme", "title_en": "Design & Build", "body": "Tasarımdan koda.", "body_en": "Pixel to production." },
+    { "title": "Yayın", "title_en": "Launch", "body": "Yayın ve devir.", "body_en": "Go-live and handover." }
+  ],
+  "faq": [
+    { "q": "Ne kadar sürer?", "q_en": "How long does it take?", "a": "Kapsama göre 3-6 hafta.", "a_en": "3–6 weeks depending on scope." },
+    { "q": "Mevcut içeriğim taşınır mı?", "q_en": "Will my content migrate?", "a": "Evet, içerik ve SEO korunarak taşınır.", "a_en": "Yes — content and SEO are preserved during migration." },
+    { "q": "Sonrasında ben yönetebilir miyim?", "q_en": "Can I manage it afterwards?", "a": "Evet, editor dostu yapı + devir eğitimi.", "a_en": "Yes — an editor-friendly structure plus handover training." }
+  ],
+  "band_h": "Markana yakışan siteyi kuralım.", "band_h_en": "Let’s build the site your brand deserves.",
+  "band_p": "Projeni anlat, 24 saat içinde ücretsiz teklif al.", "band_p_en": "Tell me about your project and get a free quote within 24 hours.",
+  "band_cta": "Ücretsiz Teklif Al", "band_cta_en": "Get a Free Quote"
+}

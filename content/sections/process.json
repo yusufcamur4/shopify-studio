@@ -1,0 +1,16 @@
+{
+  "eyebrow": "04 — Süreç",
+  "eyebrow_en": "04 — Process",
+  "intro": "Fikirden yayına, sekiz net adım.",
+  "intro_en": "From idea to launch, eight clear steps.",
+  "steps": [
+    { "n_label": "01 — Keşif", "n_label_en": "01 — Discovery", "title": "Keşif & Brief", "title_en": "Discovery & Brief", "body": "Hedefleri, kitleyi ve mevcut durumu netleştiriyoruz. Başarı neye benziyor, birlikte tanımlıyoruz.", "body_en": "We clarify goals, audience and the current state. We define together what success looks like." },
+    { "n_label": "02 — Mimari", "n_label_en": "02 — Architecture", "title": "UX Mimarisi", "title_en": "UX Architecture", "body": "Sayfa akışı, bilgi mimarisi ve dönüşüm yolu. Tasarımdan önce iskelet sağlam kuruluyor.", "body_en": "Page flow, information architecture and conversion path. The skeleton is set firmly before design." },
+    { "n_label": "03 — Tasarım", "n_label_en": "03 — Design", "title": "UI Tasarım", "title_en": "UI Design", "body": "Marka diline sadık, yüksek dönüşümlü arayüz. Tasarım sistemi ve bileşenler.", "body_en": "A high-converting interface true to the brand voice. Design system and components." },
+    { "n_label": "04 — Geliştirme", "n_label_en": "04 — Development", "title": "Tema Geliştirme", "title_en": "Theme Development", "body": "Temiz Liquid, esnek bölümler ve düzenleyici dostu yapı. Kod kalitesi devredilemez.", "body_en": "Clean Liquid, flexible sections and an editor-friendly structure. Code quality is non-negotiable." },
+    { "n_label": "05 — Entegrasyon", "n_label_en": "05 — Integration", "title": "Entegrasyon", "title_en": "Integration", "body": "Ödeme, kargo, analitik ve gerekli uygulamalar. Her parça tek bütün gibi çalışıyor.", "body_en": "Payments, shipping, analytics and required apps. Every piece works as one whole." },
+    { "n_label": "06 — Performans", "n_label_en": "06 — Performance", "title": "Performans", "title_en": "Performance", "body": "Hız optimizasyonu, görsel yükleme stratejisi ve çekirdek web metrikleri.", "body_en": "Speed optimization, image loading strategy and core web vitals." },
+    { "n_label": "07 — QA", "n_label_en": "", "title": "Test & QA", "title_en": "Testing & QA", "body": "Cihaz, tarayıcı ve uç durum testleri. Yayından önce her şey çalışıyor.", "body_en": "Device, browser and edge-case testing. Everything works before launch." },
+    { "n_label": "08 — Yayın", "n_label_en": "08 — Launch", "title": "Yayın & Bakım", "title_en": "Launch & Maintenance", "body": "Sorunsuz geçiş, devir eğitimi ve sonrasında sürekli destek.", "body_en": "A seamless go-live, handover training and ongoing support afterwards." }
+  ]
+}

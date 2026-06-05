@@ -13,8 +13,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Okan Bayraktar — Kreatif & Dijital Stüdyo · Sinematik markalar kuruyoruz</title>
-  <meta name="description" content="Okan Bayraktar — sinema kökenli görsel yönetmen ve kreatif stüdyo. Markalara web sitesi, dijital vitrin ve görsel kimlik tasarlıyoruz. THY, Nusret ve milyonluk kanallarda biriken set deneyimi artık dijitalde." />
+  <!-- CMS:SEO — title/description/OG content/seo/home.json'dan basilir; panelden yonet -->
   <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -39,7 +38,7 @@
         <span class="ch">O</span><span class="ch">B</span><span class="ch dot">°</span>
       </a>
       <button class="nav__back" id="navBack" type="button" aria-label="Menüye geri dön">
-        <span class="nav__back-ico" aria-hidden="true">←</span><span data-en="Back">Geri</span>
+        <span class="nav__back-ico" aria-hidden="true">←</span><!-- CMS:NAVBACK -->
       </button>
     </div>
     <div class="nav__right">
@@ -72,18 +71,11 @@
         <li class="menu-item"><a class="menu-link" href="#contact" data-link data-i18n="m_contact">İletişim</a></li>
       </ul>
       <!-- Seviye 1 — Yetenekler -->
-      <ul class="menu-level" data-level="1" data-id="yetenekler" data-title="Yetenekler" data-title-en="Capabilities">
-        <li class="menu-item"><a class="menu-link" href="#skill-shopify" data-link data-en="Shopify Consulting &amp; CRO">Shopify Danışmanlığı &amp; CRO</a></li>
-        <li class="menu-item"><a class="menu-link" href="#skill-web" data-link data-en="Web &amp; E-Commerce Development">Web &amp; E-Ticaret Geliştirme</a></li>
-        <li class="menu-item"><a class="menu-link" href="#skill-tema" data-link data-en="Custom Theme from Scratch">Sıfırdan Özel Tema</a></li>
-        <li class="menu-item"><a class="menu-link" href="#skill-seo" data-link data-en="Performance &amp; SEO">Performans &amp; SEO</a></li>
-        <li class="menu-item"><a class="menu-link" href="#skill-pazarlama" data-link data-en="Digital Marketing">Dijital Pazarlama</a></li>
-      </ul>
+      <!-- CMS:MENUSUB — alt menü content/sections/menu.json'dan basilir -->
     </nav>
 
     <div class="menu-meta">
-      <span class="mono">OB° · Kreatif Stüdyo</span>
-      <span class="mono">İstanbul · Uzaktan</span>
+      <!-- CMS:MENUMETA -->
     </div>
 
     <!-- Müşteri deneyim videosu — menü açıkken sağ köşede oynar (dosya yüklenince belirir) -->
@@ -96,7 +88,7 @@
           <span aria-hidden="true">🔇</span>
         </button>
       </div>
-      <figcaption class="menu-testimonial__cap mono" data-en="Client Experience">Müşteri Deneyimi</figcaption>
+      <!-- CMS:MENUCAPTION -->
     </figure>
   </div>
 
@@ -109,41 +101,24 @@
     </div>
 
     <div class="hero__content">
-      <p class="hero__eyebrow mono">
-        <span class="hero__rec"><span class="dot"></span> REC</span>
-        <span data-en="Visual Director · Creative Studio — Istanbul">Görsel Yönetmen · Kreatif Stüdyo — İstanbul</span>
-      </p>
-      <h1 class="hero__title" id="heroTitle">
-        <span class="line"><span class="word">Markanı</span></span>
-        <span class="line"><span class="word"><em>sinematik</em> bir</span></span>
-        <span class="line"><span class="word">dünyaya taşıyoruz.</span></span>
-      </h1>
-      <p class="hero__lede" data-i18n="hero_lede">Sinema setlerinden gelen ışık, ritim ve hikâye disiplinini; markaların web sitesine, görsel kimliğine ve dijital vitrinine taşıyoruz.</p>
-      <div class="hero__credits" aria-label="Çalışılan markalar">
-        <span class="mono" data-en="COLLABORATIONS">İŞ BİRLİKLERİ</span>
-        <span class="chip">THY</span><span class="chip">Nusret</span><span class="chip">Orkun Işıtmak</span><span class="chip" data-en="20+ countries">20+ ülke</span>
-      </div>
-      <div class="hero__actions">
-        <a class="hero__cta hero__cta--solid fx-gradient" href="mailto:okanbayraktarr@gmail.com" data-modal-open><span data-en="Let’s Talk">Projeyi Konuşalım</span> <span aria-hidden="true">→</span></a>
-        <a class="hero__cta hero__cta--ghost" href="#works" data-i18n="hero_works">İşleri Gör</a>
-      </div>
+      <!-- CMS:HERO — hero metinleri content/sections/hero.json'dan basilir; panelden yonet -->
     </div>
 
     <div class="hero__scroll">
       <span class="rail"></span>
-      <span data-en="Explore">Keşfet</span>
+      <!-- CMS:HEROSCROLL -->
     </div>
   </section>
 
   <!-- ======================= MARQUEE ======================= -->
   <div class="marquee" aria-hidden="true" data-page="home">
     <div class="marquee__track" data-marquee>
-      <span class="marquee__item" data-en="OB° Studio">OB° Stüdyo</span><span class="marquee__item" data-en="Visual Direction">Görsel Yönetmenlik</span><span class="marquee__item" data-en="Web Design">Web Tasarım</span><span class="marquee__item" data-en="Brand Identity">Marka Kimliği</span><span class="marquee__item">2025 / 2026</span><span class="marquee__item" data-en="Open to New Projects">Yeni Projelere Açık</span>
+      <!-- CMS:MARQUEE1 -->
     </div>
   </div>
   <div class="marquee" aria-hidden="true" data-page="home">
     <div class="marquee__track rev" data-marquee>
-      <span class="marquee__item">Sinematografi</span><span class="marquee__item">Art Direction</span><span class="marquee__item" data-en="Digital Storefront">Dijital Vitrin</span><span class="marquee__item" data-en="Commercials">Reklam Filmi</span><span class="marquee__item" data-en="Content Production">İçerik Üretimi</span><span class="marquee__item">UX</span>
+      <!-- CMS:MARQUEE2 -->
     </div>
   </div>
 
@@ -152,22 +127,7 @@
     <span class="folio mono">s. 014</span>
     <hr class="hairline" />
     <div class="about" data-reveal style="margin-top:clamp(40px,7vh,90px)">
-      <div class="about__l">
-        <span class="mono" style="color:var(--accent)" data-en="01 — About">01 — Hakkımda</span>
-        <h2 class="display" style="margin-top:1.4rem" data-en-html="Everything I learned behind the camera <span class='whisper'>— light, rhythm, story —</span> I now bring to the world of brands.">
-          Kamera arkasında öğrendiğim her şeyi
-          <span class="whisper">— ışığı, ritmi, hikayeyi —</span>
-          şimdi markaların dünyasına taşıyorum.
-        </h2>
-      </div>
-      <div class="about__r">
-        <p class="lede" data-en="I’m Okan Bayraktar. For over a decade I’ve spoken the language of the image. A journey that began behind the Arri Alexa on professional series, film and commercial sets took me to the director’s chair at Turkish Airlines, and from there to more than twenty countries. I shot every city like a film — chasing the light, the frame and the emotion.">Ben Okan Bayraktar. On yılı aşkın süredir görüntünün dilini konuşuyorum. Profesyonel dizi, sinema ve reklam setlerinde Arri Alexa'nın arkasında başladığım yolculuk; beni Türk Hava Yolları'nın yönetmen koltuğuna, oradan da dünyanın yirmiden fazla ülkesine taşıdı. Her şehri bir film gibi çektim — ışığı, kadrajı ve duyguyu kovalayarak.</p>
-        <p data-en="I carry that on-set discipline into work watched by millions today: producing content for Nusret’s 46M followers, standing behind the camera and drone on a 9M-subscriber channel. Now I bring that same cinematic eye to my creative studio — building brands not just a website, but a cohesive visual world that lands in the first second. I unite strategy, art direction, visual identity and the digital storefront under one hand, one intent.">Bu set disiplinini bugün milyonların izlediği işlerde sürdürüyorum: 46 milyon takipçili Nusret için içerik üretiyor, 9 milyonluk kanalda kameranın ve dronun arkasında durdum. Şimdi aynı sinematik gözü kreatif stüdyoma taşıyorum — markalara yalnızca bir web sitesi değil, ilk saniyede hissettiren bütünlüklü bir görsel dünya kuruyorum. Strateji, art direction, görsel kimlik ve dijital vitrini tek elde, tek niyetle birleştiriyorum.</p>
-        <dl class="about__meta">
-          <dt data-en="Expertise">Uzmanlık</dt><dd data-en="Shopify Consulting &amp; CRO · Web &amp; E-Commerce Development · Custom Theme from Scratch · Performance &amp; SEO · Digital Marketing">Shopify Danışmanlığı &amp; CRO · Web &amp; E-Ticaret Geliştirme · Sıfırdan Özel Tema · Performans &amp; SEO · Dijital Pazarlama</dd>
-          <dt data-en="Signature Work">İmza İşler</dt><dd>THY · Nusret · Orkun Işıtmak</dd>
-        </dl>
-      </div>
+      <!-- CMS:ABOUT — hakkinda metinleri content/sections/about.json'dan basilir; panelden yonet -->
     </div>
   </section>
 
@@ -180,73 +140,7 @@
       <h2 class="sec-title" data-i18n="works_title">Daha Önce Yapılan İşler</h2>
     </div>
     <div class="works">
-      <article class="work" data-tilt data-reveal style="--c1:#1a1410;--c2:#0e0c0b">
-        <span class="work__sheen"></span>
-        <div class="work__shot">
-          <span class="work__bar"><i></i><i></i><i></i><span class="work__url">ayla.istanbul</span></span>
-          <img src="/works/ayla.svg" alt="Ayla fine dining restoran web sitesi tasarımı" loading="lazy" width="1200" height="800" />
-        </div>
-        <div class="work__body">
-          <div class="work__top">
-            <span class="work__badge" data-en="Restaurant · Web & Brand">Restoran · Web & Marka</span>
-            <span class="work__num">/ 01</span>
-          </div>
-          <span class="work__arrow" aria-hidden="true">↗</span>
-          <h3 class="work__title" data-en="Ayla — a cinematic storefront for fine dining">Ayla — fine dining için sinematik vitrin</h3>
-          <div class="work__metric"><span data-en="Online reservations +54%">Online rezervasyon +%54</span></div>
-        </div>
-      </article>
-
-      <article class="work" data-tilt data-reveal style="--c1:#101618;--c2:#0b0d0e">
-        <span class="work__sheen"></span>
-        <div class="work__shot">
-          <span class="work__bar"><i></i><i></i><i></i><span class="work__url">meridiantravel.co</span></span>
-          <img src="/works/meridian.svg" alt="Meridian butik seyahat web sitesi tasarımı" loading="lazy" width="1200" height="800" />
-        </div>
-        <div class="work__body">
-          <div class="work__top">
-            <span class="work__badge" data-en="Travel · Web Design">Seyahat · Web Tasarım</span>
-            <span class="work__num">/ 02</span>
-          </div>
-          <span class="work__arrow" aria-hidden="true">↗</span>
-          <h3 class="work__title" data-en="Meridian — a boutique travel curation platform">Meridian — butik seyahat kürasyon platformu</h3>
-          <div class="work__metric"><span data-en="Tour requests +73%">Tur talebi +%73</span></div>
-        </div>
-      </article>
-
-      <article class="work" data-tilt data-reveal style="--c1:#181016;--c2:#0d0b0c">
-        <span class="work__sheen"></span>
-        <div class="work__shot">
-          <span class="work__bar"><i></i><i></i><i></i><span class="work__url">lustra.studio</span></span>
-          <img src="/works/lustra.svg" alt="Lustra moda e-ticaret web sitesi tasarımı" loading="lazy" width="1200" height="800" />
-        </div>
-        <div class="work__body">
-          <div class="work__top">
-            <span class="work__badge" data-en="Fashion · E-Commerce">Moda · E-Ticaret</span>
-            <span class="work__num">/ 03</span>
-          </div>
-          <span class="work__arrow" aria-hidden="true">↗</span>
-          <h3 class="work__title" data-en="Lustra — a capsule-collection e-commerce experience">Lustra — kapsül koleksiyon e-ticaret deneyimi</h3>
-          <div class="work__metric"><span data-en="Conversion +41% · Cart abandonment −23%">Dönüşüm +%41 · Sepet terk −%23</span></div>
-        </div>
-      </article>
-
-      <article class="work" data-tilt data-reveal style="--c1:#15140e;--c2:#0c0b08">
-        <span class="work__sheen"></span>
-        <div class="work__shot">
-          <span class="work__bar"><i></i><i></i><i></i><span class="work__url">orbit.app</span></span>
-          <img src="/works/orbit.svg" alt="Orbit içerik üretici platformu arayüz tasarımı" loading="lazy" width="1200" height="800" />
-        </div>
-        <div class="work__body">
-          <div class="work__top">
-            <span class="work__badge" data-en="Digital · Platform Design">Dijital · Platform Tasarım</span>
-            <span class="work__num">/ 04</span>
-          </div>
-          <span class="work__arrow" aria-hidden="true">↗</span>
-          <h3 class="work__title" data-en="Orbit — a revenue platform for creators">Orbit — içerik üreticileri için gelir platformu</h3>
-          <div class="work__metric"><span data-en="Signup activation +38%">Kayıt aktivasyonu +%38</span></div>
-        </div>
-      </article>
+      <!-- CMS:WORKS — kartlar content/projects/*.md dosyalarindan uretilir; panelden yonet -->
     </div>
   </section>
 
@@ -258,388 +152,48 @@
       <span class="idx">03</span>
       <h2 class="sec-title" data-i18n="skills_title">Yetenekler</h2>
     </div>
-    <p class="skills-lede" data-reveal data-en="Strategy, design and engineering under one roof. Every project ships with measurable goals, clean code and a handover-ready structure.">Strateji, tasarım ve mühendislik tek elde. Her proje; ölçülebilir hedef, temiz kod ve devredilebilir bir yapı ile teslim edilir.</p>
+    <!-- CMS:SKILLSLEDE -->
     <div class="skills">
-      <div class="skill" data-reveal>
-        <div class="skill__head">
-          <span class="skill__idx">01</span>
-          <span class="skill__tag-pill" data-en="Strategy">Strateji</span>
-        </div>
-        <h3 class="skill__title" data-en="Shopify Consulting & CRO">Shopify Danışmanlığı & CRO</h3>
-        <p class="skill__lead" data-en="From store audit to measurable growth.">Mağaza denetiminden ölçülebilir büyümeye.</p>
-        <p class="skill__body" data-en="A technical and UX audit of your current store, identifying conversion bottlenecks, plus a prioritised roadmap.">Mevcut mağazanın teknik ve UX denetimi, dönüşüm darboğazlarının tespiti ve önceliklendirilmiş bir yol haritası.</p>
-        <ul class="skill__list">
-          <li data-en="Technical & UX audit report">Teknik & UX audit raporu</li>
-          <li data-en="Funnel / heatmap analysis (GA4 · Hotjar)">Funnel / heatmap analizi (GA4 · Hotjar)</li>
-          <li data-en="A/B test setup & hypothesis management">A/B test kurgusu & hipotez yönetimi</li>
-          <li data-en="Checkout and payment optimization">Checkout ve ödeme optimizasyonu</li>
-          <li data-en="App stack simplification">App yığını sadeleştirme</li>
-        </ul>
-        <div class="skill__tags"><span>GA4</span><span>Hotjar</span><span>A/B Test</span><span>Checkout Ext.</span></div>
-      </div>
-      <div class="skill" data-reveal>
-        <div class="skill__head">
-          <span class="skill__idx">02</span>
-          <span class="skill__tag-pill" data-en="Development">Geliştirme</span>
-        </div>
-        <h3 class="skill__title" data-en="Web & E-Commerce Development">Web & E-Ticaret Geliştirme</h3>
-        <p class="skill__lead" data-en="Bespoke, fast and scalable interfaces.">Markaya özel, hızlı ve ölçeklenebilir arayüzler.</p>
-        <p class="skill__body" data-en="A growth-ready codebase built on component architecture, a design system and an editor-friendly structure.">Bileşen tabanlı mimari, tasarım sistemi ve düzenleyici dostu yapıyla; büyümeye hazır bir kod tabanı.</p>
-        <ul class="skill__list">
-          <li data-en="Component-based architecture & design system">Component tabanlı mimari & tasarım sistemi</li>
-          <li data-en="Headless / Hydrogen option">Headless / Hydrogen seçeneği</li>
-          <li data-en="CMS & API integrations">CMS & API entegrasyonları</li>
-          <li data-en="Responsive, RTL and accessibility (WCAG)">Responsive, RTL ve erişilebilirlik (WCAG)</li>
-          <li data-en="Consistent UI with design tokens">Tasarım token'ları ile tutarlı UI</li>
-        </ul>
-        <div class="skill__tags"><span>React</span><span>Vite</span><span>TypeScript</span><span>Tailwind</span><span>Hydrogen</span></div>
-      </div>
-      <div class="skill" data-reveal>
-        <div class="skill__head">
-          <span class="skill__idx">03</span>
-          <span class="skill__tag-pill" data-en="Theme">Tema</span>
-        </div>
-        <h3 class="skill__title" data-en="Custom Shopify Theme from Scratch">Sıfırdan Özel Shopify Tema</h3>
-        <p class="skill__lead" data-en="Entirely yours, free of any prebuilt theme.">Hazır temaya bağlı kalmadan, tamamen size ait.</p>
-        <p class="skill__body" data-en="A flexible structure built on OS 2.0 that gives the store owner full control through the Theme Editor.">OS 2.0 mimarisiyle; mağaza sahibine Theme Editor üzerinden tam kontrol veren esnek bir yapı.</p>
-        <ul class="skill__list">
-          <li data-en="OS 2.0 JSON templates">OS 2.0 JSON şablonlar</li>
-          <li data-en="Flexible section & block system">Esnek section & block sistemi</li>
-          <li data-en="Metafield & metaobject modelling">Metafield & metaobject modelleme</li>
-          <li data-en="Multi-language and currency (Markets)">Çoklu dil ve para birimi (Markets)</li>
-          <li data-en="Editor-friendly, documented schema">Editor dostu, dokümante schema</li>
-        </ul>
-        <div class="skill__tags"><span>Liquid</span><span>Sections</span><span>Metafields</span><span>Web Components</span></div>
-      </div>
-      <div class="skill" data-reveal>
-        <div class="skill__head">
-          <span class="skill__idx">04</span>
-          <span class="skill__tag-pill" data-en="Performance">Performans</span>
-        </div>
-        <h3 class="skill__title" data-en="Performance, SEO & Maintenance">Performans, SEO & Bakım</h3>
-        <p class="skill__lead" data-en="Speed isn’t a score; it’s conversion and ranking.">Hız bir puan değil; doğrudan dönüşüm ve sıralama.</p>
-        <p class="skill__body" data-en="Core web vitals, technical SEO and continuous post-launch monitoring — sustainable speed.">Çekirdek web metrikleri, teknik SEO ve yayın sonrası sürekli izleme — sürdürülebilir bir hız.</p>
-        <ul class="skill__list">
-          <li>Core Web Vitals (LCP · CLS · INP)</li>
-          <li data-en="Image, font and bundle optimization">Görsel, font ve bundle optimizasyonu</li>
-          <li>Lazy-load & code-splitting</li>
-          <li data-en="Schema.org and technical SEO">Schema.org ve teknik SEO</li>
-          <li data-en="Monitoring, reporting and ongoing support">İzleme, raporlama ve sürekli destek</li>
-        </ul>
-        <div class="skill__tags"><span>Lighthouse 95+</span><span>Schema.org</span><span>CDN</span><span>Edge</span></div>
-      </div>
-      <div class="skill" data-reveal>
-        <div class="skill__head">
-          <span class="skill__idx">05</span>
-          <span class="skill__tag-pill" data-en="Marketing">Pazarlama</span>
-        </div>
-        <h3 class="skill__title" data-en="Digital Marketing">Dijital Pazarlama</h3>
-        <p class="skill__lead" data-en="The right audience, the right message.">Doğru kitleye, doğru mesajla ulaş.</p>
-        <p class="skill__body" data-en="Measurable traffic and sales through ads, social media and content — with reporting you can actually read.">Reklam, sosyal medya ve içerikle ölçülebilir trafik ve satış — okunabilir raporlamayla.</p>
-        <ul class="skill__list">
-          <li data-en="Google &amp; Meta ad campaigns">Google &amp; Meta reklam kampanyaları</li>
-          <li data-en="Social media management">Sosyal medya yönetimi</li>
-          <li data-en="Content &amp; creative production">İçerik &amp; kreatif üretimi</li>
-          <li data-en="Email marketing (Klaviyo)">E-posta pazarlama (Klaviyo)</li>
-          <li data-en="Performance reporting &amp; optimization">Performans raporlama &amp; optimizasyon</li>
-        </ul>
-        <div class="skill__tags"><span>Google Ads</span><span>Meta</span><span>GA4</span><span>Klaviyo</span></div>
-      </div>
+      <!-- CMS:SKILLS — kartlar content/sections/skills.json'dan basilir; panelden yonet -->
     </div>
     <div class="techstack" data-reveal aria-hidden="true">
-      <span class="techstack__label mono" data-en="Stack used">Kullanılan yığın</span>
-      <div class="techstack__row">
-        <span>Shopify</span><span>Liquid</span><span>Hydrogen</span><span>React</span><span>TypeScript</span><span>Vite</span><span>Tailwind</span><span>GSAP</span><span>Three.js</span><span>Figma</span><span>GA4</span><span>Klaviyo</span>
-      </div>
+      <!-- CMS:TECHSTACK -->
     </div>
   </section>
 
   <!-- ============ HİZMET LANDING · SHOPIFY DANIŞMANLIĞI ============ -->
   <section class="section lp" id="skill-shopify" data-page="skill-shopify">
-    <div class="crumbs" data-reveal><span data-i18n="crumb_home">Anasayfa</span><span class="sep">/</span><span data-i18n="m_skills">Yetenekler</span><span class="sep">/</span><span data-en="Shopify Consulting">Shopify Danışmanlığı</span></div>
-
-    <div class="lp__hero">
-      <div class="lp__hero-l" data-reveal>
-        <span class="lp__eyebrow mono" data-en="SERVICE · CRO">HİZMET · CRO</span>
-        <h1 class="lp__title" data-en-html="A system that turns your Shopify store into <em>sales</em>.">Shopify mağazanı <em>satışa</em> çeviren sistem.</h1>
-        <p class="lp__lede" data-en="Plenty of traffic but no sales? I audit your store end-to-end, close the conversion bottlenecks and build a clear roadmap for measurable growth.">Trafik var ama satış yok mu? Mağazanı baştan sona denetliyor, dönüşüm darboğazlarını kapatıyor ve ölçülebilir büyüme için net bir yol haritası kuruyorum.</p>
-        <div class="lp__cta-row">
-          <button class="lp__cta lp__cta--solid fx-gradient" type="button" data-modal-open data-project="Shopify / E-Ticaret" data-en="Free Store Analysis">Ücretsiz Mağaza Analizi</button>
-          <a class="lp__cta lp__cta--ghost" href="#works" data-en="See example work">Örnek işleri gör</a>
-        </div>
-        <div class="lp__trust">
-          <span><b>★ 4.9</b> <span data-en="client rating">müşteri puanı</span></span>
-          <span><b>120+</b> <span data-en="projects">proje</span></span>
-          <span><b>+%38</b> <span data-en="avg. conversion lift">ort. dönüşüm artışı</span></span>
-        </div>
-      </div>
-      <div class="lp__hero-r" data-reveal="scale">
-        <div class="device">
-          <div class="device__bar"><i></i><i></i><i></i></div>
-          <div class="device__screen"><img src="/works/lustra.svg" alt="Shopify mağaza örneği" loading="lazy" /></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="lp__label"><span data-en="Why it works">Neden işe yarar</span></div>
-    <div class="lp__grid">
-      <div class="lp__benefit glass" data-reveal><span class="n">01</span><h4 data-en="Conversion-first">Dönüşüm odaklı</h4><p data-en="Every decision answers one question: does this increase sales?">Her karar tek soruya bağlı: bu satışı artırır mı?</p></div>
-      <div class="lp__benefit glass" data-reveal><span class="n">02</span><h4 data-en="Data-driven">Veriyle yönetilen</h4><p data-en="GA4, heatmaps and A/B tests — evidence, not guesswork.">GA4, heatmap ve A/B test ile; tahmin değil, kanıt.</p></div>
-      <div class="lp__benefit glass" data-reveal><span class="n">03</span><h4 data-en="Fast impact">Hızlı etki</h4><p data-en="Actionable wins you can ship within the first 30 days.">İlk 30 günde uygulanabilir, somut kazançlar.</p></div>
-    </div>
-
-    <div class="lp__label"><span data-en="What’s included">Neler dahil</span></div>
-    <ul class="lp__includes" data-reveal>
-      <li data-en="Technical & UX audit report">Teknik & UX audit raporu</li>
-      <li data-en="Funnel / heatmap analysis (GA4 · Hotjar)">Funnel / heatmap analizi (GA4 · Hotjar)</li>
-      <li data-en="A/B test setup & hypothesis management">A/B test kurgusu & hipotez yönetimi</li>
-      <li data-en="Checkout and payment optimization">Checkout ve ödeme optimizasyonu</li>
-      <li data-en="App stack simplification">App yığını sadeleştirme</li>
-      <li data-en="Prioritised 90-day roadmap">Önceliklendirilmiş 90 günlük yol haritası</li>
-    </ul>
-
-    <div class="lp__label"><span data-en="How we work">Nasıl çalışıyoruz</span></div>
-    <div class="lp__steps" data-reveal>
-      <div class="lp__step"><span class="n">01</span><h4 data-en="Analysis">Analiz</h4><p data-en="Store and data audit.">Mağaza ve veri denetimi.</p></div>
-      <div class="lp__step"><span class="n">02</span><h4 data-en="Hypotheses">Hipotez</h4><p data-en="Bottleneck & opportunity list.">Darboğaz ve fırsat listesi.</p></div>
-      <div class="lp__step"><span class="n">03</span><h4 data-en="Execution">Uygulama</h4><p data-en="Tests and improvements.">Test ve iyileştirme.</p></div>
-      <div class="lp__step"><span class="n">04</span><h4 data-en="Measurement">Ölçüm</h4><p data-en="Results report and next steps.">Sonuç raporu ve sonraki adımlar.</p></div>
-    </div>
-
-    <div class="lp__label"><span data-en="FAQ">Sık sorulanlar</span></div>
-    <div class="lp__faq" data-reveal>
-      <details><summary data-en="How soon will I see results?">Ne kadar sürede sonuç alırım?</summary><p data-en="The first quick wins land in 2–4 weeks; a lasting conversion lift becomes clear over 8–12 weeks of test cycles.">İlk hızlı kazançlar 2-4 haftada gelir; kalıcı dönüşüm artışı test döngüleriyle 8-12 haftada belirginleşir.</p></details>
-      <details><summary data-en="Does it work with my current theme?">Mevcut temamla çalışır mı?</summary><p data-en="Yes. The audit is theme-agnostic; if needed, improvements are applied to your existing theme.">Evet. Audit tema bağımsızdır; gerekirse iyileştirmeleri mevcut temana uygularız.</p></details>
-      <details><summary data-en="Analysis only, or implementation too?">Sadece analiz mi, uygulama da var mı?</summary><p data-en="Both. I can hand over the roadmap, or implement it end-to-end — your call.">İkisi de. İstersen yol haritasını veririm, istersen uçtan uca uygularım.</p></details>
-    </div>
-
-    <div class="lp__band" data-reveal>
-      <h3 data-en="Let’s uncover your store’s real potential.">Mağazanın gerçek potansiyelini ortaya çıkaralım.</h3>
-      <p data-en="Let’s start with a free 30-minute analysis and see together what you’re losing and how to win it back.">Ücretsiz 30 dakikalık analizle başlayalım; ne kaybettiğini ve nasıl kazanacağını birlikte görelim.</p>
-      <button class="lp__cta lp__cta--solid fx-gradient" type="button" data-modal-open data-project="Shopify / E-Ticaret" data-en="Get Free Analysis">Ücretsiz Analiz Al</button>
-    </div>
+    <!-- CMS:LP_SHOPIFY — content/landings/shopify.json'dan basilir; panelden yonet -->
   </section>
 
   <!-- ============ HİZMET LANDING · WEB & E-TİCARET ============ -->
   <section class="section lp" id="skill-web" data-page="skill-web">
-    <div class="crumbs" data-reveal><span data-i18n="crumb_home">Anasayfa</span><span class="sep">/</span><span data-i18n="m_skills">Yetenekler</span><span class="sep">/</span><span data-en="Web &amp; E-Commerce">Web &amp; E-Ticaret</span></div>
-    <div class="lp__hero">
-      <div class="lp__hero-l" data-reveal>
-        <span class="lp__eyebrow mono" data-en="SERVICE · WEB">HİZMET · WEB</span>
-        <h1 class="lp__title" data-en-html="Bespoke, <em>fast</em> web &amp; e-commerce.">Markana özel, <em>hızlı</em> web &amp; e-ticaret.</h1>
-        <p class="lp__lede" data-en="Not a template — a site that reflects your brand, is built for conversion and ready to grow.">Şablon değil; markanı yansıtan, dönüşüm için kurgulanmış, büyümeye hazır bir site.</p>
-        <div class="lp__cta-row">
-          <button class="lp__cta lp__cta--solid fx-gradient" type="button" data-modal-open data-project="Web Sitesi" data-en="Get a Free Quote">Ücretsiz Teklif Al</button>
-          <a class="lp__cta lp__cta--ghost" href="#works" data-en="See example work">Örnek işleri gör</a>
-        </div>
-        <div class="lp__trust"><span><b>★ 4.9</b> <span data-en="rating">puan</span></span><span><b>120+</b> <span data-en="projects">proje</span></span><span><b>%92</b> <span data-en="speed score">hız puanı</span></span></div>
-      </div>
-      <div class="lp__hero-r" data-reveal="scale"><div class="device"><div class="device__bar"><i></i><i></i><i></i></div><div class="device__screen"><img src="/works/orbit.svg" alt="Web projesi örneği" loading="lazy" /></div></div></div>
-    </div>
-    <div class="lp__label"><span data-en="Why it works">Neden işe yarar</span></div>
-    <div class="lp__grid">
-      <div class="lp__benefit glass" data-reveal><span class="n">01</span><h4 data-en="Brand-specific">Markaya özel</h4><p data-en="No off-the-shelf theme — design shaped by your brand voice.">Hazır tema değil; markanın diline göre tasarım.</p></div>
-      <div class="lp__benefit glass" data-reveal><span class="n">02</span><h4 data-en="Fast &amp; solid">Hızlı &amp; sağlam</h4><p data-en="Clean code, high performance and easy maintenance.">Temiz kod, yüksek performans, kolay bakım.</p></div>
-      <div class="lp__benefit glass" data-reveal><span class="n">03</span><h4 data-en="Built to convert">Dönüşüm için</h4><p data-en="Every section serves a goal.">Her bölüm bir hedefe hizmet eder.</p></div>
-    </div>
-    <div class="lp__label"><span data-en="What’s included">Neler dahil</span></div>
-    <ul class="lp__includes" data-reveal>
-      <li data-en="Component architecture &amp; design system">Component tabanlı mimari &amp; tasarım sistemi</li>
-      <li data-en="Headless / Hydrogen option">Headless / Hydrogen seçeneği</li>
-      <li data-en="CMS &amp; API integrations">CMS &amp; API entegrasyonları</li>
-      <li data-en="Responsive &amp; accessibility (WCAG)">Responsive &amp; erişilebilirlik (WCAG)</li>
-      <li data-en="Multi-language / currency">Çoklu dil / para birimi</li>
-      <li data-en="SEO-ready setup">SEO temelli kurulum</li>
-    </ul>
-    <div class="lp__label"><span data-en="How we work">Nasıl çalışıyoruz</span></div>
-    <div class="lp__steps" data-reveal>
-      <div class="lp__step"><span class="n">01</span><h4 data-en="Discovery">Keşif</h4><p data-en="Goals, audience, scope.">Hedef, kitle, kapsam.</p></div>
-      <div class="lp__step"><span class="n">02</span><h4 data-en="Architecture">Mimari</h4><p data-en="Flow and structure.">Akış ve yapı.</p></div>
-      <div class="lp__step"><span class="n">03</span><h4 data-en="Design &amp; Build">Tasarım &amp; Geliştirme</h4><p data-en="Pixel to production.">Tasarımdan koda.</p></div>
-      <div class="lp__step"><span class="n">04</span><h4 data-en="Launch">Yayın</h4><p data-en="Go-live and handover.">Yayın ve devir.</p></div>
-    </div>
-    <div class="lp__label"><span data-en="FAQ">Sık sorulanlar</span></div>
-    <div class="lp__faq" data-reveal>
-      <details><summary data-en="How long does it take?">Ne kadar sürer?</summary><p data-en="3–6 weeks depending on scope.">Kapsama göre 3-6 hafta.</p></details>
-      <details><summary data-en="Will my content migrate?">Mevcut içeriğim taşınır mı?</summary><p data-en="Yes — content and SEO are preserved during migration.">Evet, içerik ve SEO korunarak taşınır.</p></details>
-      <details><summary data-en="Can I manage it afterwards?">Sonrasında ben yönetebilir miyim?</summary><p data-en="Yes — an editor-friendly structure plus handover training.">Evet, editor dostu yapı + devir eğitimi.</p></details>
-    </div>
-    <div class="lp__band" data-reveal>
-      <h3 data-en="Let’s build the site your brand deserves.">Markana yakışan siteyi kuralım.</h3>
-      <p data-en="Tell me about your project and get a free quote within 24 hours.">Projeni anlat, 24 saat içinde ücretsiz teklif al.</p>
-      <button class="lp__cta lp__cta--solid fx-gradient" type="button" data-modal-open data-project="Web Sitesi" data-en="Get a Free Quote">Ücretsiz Teklif Al</button>
-    </div>
+    <!-- CMS:LP_WEB — content/landings/web.json'dan basilir; panelden yonet -->
   </section>
 
   <!-- ============ HİZMET LANDING · SIFIRDAN ÖZEL TEMA ============ -->
   <section class="section lp" id="skill-tema" data-page="skill-tema">
-    <div class="crumbs" data-reveal><span data-i18n="crumb_home">Anasayfa</span><span class="sep">/</span><span data-i18n="m_skills">Yetenekler</span><span class="sep">/</span><span data-en="Custom Theme">Özel Tema</span></div>
-    <div class="lp__hero">
-      <div class="lp__hero-l" data-reveal>
-        <span class="lp__eyebrow mono" data-en="SERVICE · SHOPIFY THEME">HİZMET · SHOPIFY TEMA</span>
-        <h1 class="lp__title" data-en-html="A Shopify theme that’s <em>entirely yours</em>.">Tamamen <em>sana ait</em> Shopify teması.</h1>
-        <p class="lp__lede" data-en="Stop hitting the limits of prebuilt themes. With OS 2.0: flexible, fast, and full control in your hands.">Hazır temaların sınırlarına takılma. OS 2.0 ile esnek, hızlı ve tam kontrol sende.</p>
-        <div class="lp__cta-row">
-          <button class="lp__cta lp__cta--solid fx-gradient" type="button" data-modal-open data-project="Shopify / E-Ticaret" data-en="Let’s Discuss Your Theme">Tema Projeni Konuşalım</button>
-          <a class="lp__cta lp__cta--ghost" href="#works" data-en="See example work">Örnek işleri gör</a>
-        </div>
-        <div class="lp__trust"><span><b>★ 4.9</b> <span data-en="rating">puan</span></span><span><b>OS 2.0</b></span><span><b>%92</b> <span data-en="speed">hız</span></span></div>
-      </div>
-      <div class="lp__hero-r" data-reveal="scale"><div class="device"><div class="device__bar"><i></i><i></i><i></i></div><div class="device__screen"><img src="/works/ayla.svg" alt="Özel tema örneği" loading="lazy" /></div></div></div>
-    </div>
-    <div class="lp__label"><span data-en="Why it works">Neden işe yarar</span></div>
-    <div class="lp__grid">
-      <div class="lp__benefit glass" data-reveal><span class="n">01</span><h4 data-en="Full control">Tam kontrol</h4><p data-en="Manage everything from the Theme Editor.">Theme Editor'dan her şeyi yönet.</p></div>
-      <div class="lp__benefit glass" data-reveal><span class="n">02</span><h4 data-en="Flexible sections">Esnek bölümler</h4><p data-en="Build any layout with drag-and-drop.">İstediğin düzeni sürükle-bırak kur.</p></div>
-      <div class="lp__benefit glass" data-reveal><span class="n">03</span><h4 data-en="Fast &amp; scalable">Hızlı &amp; ölçeklenebilir</h4><p data-en="Performance baked into the architecture from day one.">Performans ilk günden mimaride.</p></div>
-    </div>
-    <div class="lp__label"><span data-en="What’s included">Neler dahil</span></div>
-    <ul class="lp__includes" data-reveal>
-      <li data-en="OS 2.0 JSON templates">OS 2.0 JSON şablonlar</li>
-      <li data-en="Flexible section &amp; block system">Esnek section &amp; block sistemi</li>
-      <li data-en="Metafield &amp; metaobject modelling">Metafield &amp; metaobject modelleme</li>
-      <li data-en="Multi-language / currency (Markets)">Çoklu dil / para birimi (Markets)</li>
-      <li data-en="Editor-friendly schema">Editor dostu schema</li>
-      <li data-en="Handover &amp; documentation">Devir &amp; dokümantasyon</li>
-    </ul>
-    <div class="lp__label"><span data-en="How we work">Nasıl çalışıyoruz</span></div>
-    <div class="lp__steps" data-reveal>
-      <div class="lp__step"><span class="n">01</span><h4 data-en="Discovery">Keşif</h4><p data-en="Needs and references.">İhtiyaç ve referanslar.</p></div>
-      <div class="lp__step"><span class="n">02</span><h4 data-en="Architecture">Mimari</h4><p data-en="Sections and data model.">Bölümler ve veri modeli.</p></div>
-      <div class="lp__step"><span class="n">03</span><h4 data-en="Development">Geliştirme</h4><p data-en="Clean, documented Liquid.">Temiz, dokümante Liquid.</p></div>
-      <div class="lp__step"><span class="n">04</span><h4 data-en="Handover">Devir</h4><p data-en="Training and support.">Eğitim ve destek.</p></div>
-    </div>
-    <div class="lp__label"><span data-en="FAQ">Sık sorulanlar</span></div>
-    <div class="lp__faq" data-reveal>
-      <details><summary data-en="Are my products preserved?">Mevcut ürünlerim korunur mu?</summary><p data-en="Yes — your data and products stay exactly as they are.">Evet, veri ve ürünler aynen kalır.</p></details>
-      <details><summary data-en="Will my apps work?">App'lerim çalışır mı?</summary><p data-en="Compatibility is checked; alternatives are suggested if needed.">Uyumluluk kontrol edilir, gerekirse alternatif önerilir.</p></details>
-      <details><summary data-en="How long?">Süre?</summary><p data-en="4–8 weeks depending on scope.">Kapsama göre 4-8 hafta.</p></details>
-    </div>
-    <div class="lp__band" data-reveal>
-      <h3 data-en="A theme that’s yours, with limitless control.">Sana ait bir tema, sınırsız kontrol.</h3>
-      <p data-en="Tell me about your store and let’s scope your custom theme.">Mağazanı anlat, özel temanı birlikte planlayalım.</p>
-      <button class="lp__cta lp__cta--solid fx-gradient" type="button" data-modal-open data-project="Shopify / E-Ticaret" data-en="Let’s Discuss Your Theme">Tema Projeni Konuşalım</button>
-    </div>
+    <!-- CMS:LP_TEMA — content/landings/tema.json'dan basilir; panelden yonet -->
   </section>
 
   <!-- ============ HİZMET LANDING · PERFORMANS, SEO & BAKIM ============ -->
   <section class="section lp" id="skill-seo" data-page="skill-seo">
-    <div class="crumbs" data-reveal><span data-i18n="crumb_home">Anasayfa</span><span class="sep">/</span><span data-i18n="m_skills">Yetenekler</span><span class="sep">/</span><span data-en="Performance &amp; SEO">Performans &amp; SEO</span></div>
-    <div class="lp__hero">
-      <div class="lp__hero-l" data-reveal>
-        <span class="lp__eyebrow mono" data-en="SERVICE · SEO &amp; SPEED">HİZMET · SEO &amp; HIZ</span>
-        <h1 class="lp__title" data-en-html="A <em>faster</em> site, more visitors.">Daha <em>hızlı</em> site, daha çok ziyaretçi.</h1>
-        <p class="lp__lede" data-en="Speed and technical SEO mean conversion and ranking. We start with Core Web Vitals and monitor continuously.">Hız ve teknik SEO; doğrudan dönüşüm ve sıralama demek. Core Web Vitals'tan başlayıp sürekli izliyoruz.</p>
-        <div class="lp__cta-row">
-          <button class="lp__cta lp__cta--solid fx-gradient" type="button" data-modal-open data-project="SEO & Performans" data-en="Free Speed &amp; SEO Audit">Ücretsiz Hız &amp; SEO Analizi</button>
-          <a class="lp__cta lp__cta--ghost" href="#works" data-en="See example work">Örnek işleri gör</a>
-        </div>
-        <div class="lp__trust"><span><b>★ 4.9</b> <span data-en="rating">puan</span></span><span><b>Lighthouse 95+</b></span><span><b>%92</b> <span data-en="speed">hız</span></span></div>
-      </div>
-      <div class="lp__hero-r" data-reveal="scale"><div class="device"><div class="device__bar"><i></i><i></i><i></i></div><div class="device__screen"><img src="/works/orbit.svg" alt="Performans paneli örneği" loading="lazy" /></div></div></div>
-    </div>
-    <div class="lp__label"><span data-en="Why it works">Neden işe yarar</span></div>
-    <div class="lp__grid">
-      <div class="lp__benefit glass" data-reveal><span class="n">01</span><h4 data-en="Core metrics">Çekirdek metrikler</h4><p data-en="LCP, CLS, INP — we get them into the green.">LCP, CLS, INP — yeşile çekiyoruz.</p></div>
-      <div class="lp__benefit glass" data-reveal><span class="n">02</span><h4 data-en="Technical SEO">Teknik SEO</h4><p data-en="Schema, indexability, content structure.">Schema, indexlenebilirlik, içerik yapısı.</p></div>
-      <div class="lp__benefit glass" data-reveal><span class="n">03</span><h4 data-en="Ongoing care">Sürekli bakım</h4><p data-en="Stay safe with monitoring and reports.">İzleme ve raporla güvende kal.</p></div>
-    </div>
-    <div class="lp__label"><span data-en="What’s included">Neler dahil</span></div>
-    <ul class="lp__includes" data-reveal>
-      <li>Core Web Vitals (LCP · CLS · INP)</li>
-      <li data-en="Image / font / bundle optimization">Görsel / font / bundle optimizasyonu</li>
-      <li data-en="Lazy-load &amp; code-splitting">Lazy-load &amp; code-splitting</li>
-      <li data-en="Schema.org &amp; technical SEO">Schema.org &amp; teknik SEO</li>
-      <li data-en="Monitoring &amp; monthly report">İzleme &amp; aylık rapor</li>
-      <li data-en="Security &amp; updates">Güvenlik &amp; güncelleme</li>
-    </ul>
-    <div class="lp__label"><span data-en="How we work">Nasıl çalışıyoruz</span></div>
-    <div class="lp__steps" data-reveal>
-      <div class="lp__step"><span class="n">01</span><h4 data-en="Measure">Ölçüm</h4><p data-en="Baseline audit.">Mevcut durum denetimi.</p></div>
-      <div class="lp__step"><span class="n">02</span><h4 data-en="Improve">İyileştirme</h4><p data-en="Apply fixes.">Düzeltmeleri uygula.</p></div>
-      <div class="lp__step"><span class="n">03</span><h4 data-en="Verify">Doğrulama</h4><p data-en="Re-test and confirm.">Tekrar test, doğrula.</p></div>
-      <div class="lp__step"><span class="n">04</span><h4 data-en="Monitor">İzleme</h4><p data-en="Track and report.">Takip ve rapor.</p></div>
-    </div>
-    <div class="lp__label"><span data-en="FAQ">Sık sorulanlar</span></div>
-    <div class="lp__faq" data-reveal>
-      <details><summary data-en="When will my ranking improve?">Sıralamam ne zaman artar?</summary><p data-en="Technical fixes are fast; ranking improves over 4–12 weeks.">Teknik düzeltmeler hızlı; sıralama 4-12 haftada gelişir.</p></details>
-      <details><summary data-en="Which platforms?">Hangi platformlar?</summary><p data-en="Shopify, WordPress and custom-coded sites.">Shopify, WordPress ve özel kodlu siteler.</p></details>
-      <details><summary data-en="One-off or monthly?">Tek seferlik mi, aylık mı?</summary><p data-en="A one-off audit or monthly maintenance — your choice.">Tek seferlik audit veya aylık bakım — sana göre.</p></details>
-    </div>
-    <div class="lp__band" data-reveal>
-      <h3 data-en="Let’s measure your speed and find the gaps.">Hızını ölçelim, eksiğini görelim.</h3>
-      <p data-en="Start with a free speed &amp; SEO audit and see where you stand.">Ücretsiz hız &amp; SEO analiziyle başla, nerede olduğunu gör.</p>
-      <button class="lp__cta lp__cta--solid fx-gradient" type="button" data-modal-open data-project="SEO & Performans" data-en="Get Free Analysis">Ücretsiz Analiz Al</button>
-    </div>
+    <!-- CMS:LP_SEO — content/landings/seo.json'dan basilir; panelden yonet -->
   </section>
 
   <!-- ============ HİZMET LANDING · DİJİTAL PAZARLAMA ============ -->
   <section class="section lp" id="skill-pazarlama" data-page="skill-pazarlama">
-    <div class="crumbs" data-reveal><span data-i18n="crumb_home">Anasayfa</span><span class="sep">/</span><span data-i18n="m_skills">Yetenekler</span><span class="sep">/</span><span data-en="Digital Marketing">Dijital Pazarlama</span></div>
-    <div class="lp__hero">
-      <div class="lp__hero-l" data-reveal>
-        <span class="lp__eyebrow mono" data-en="SERVICE · MARKETING">HİZMET · PAZARLAMA</span>
-        <h1 class="lp__title" data-en-html="The right audience, the <em>right</em> message.">Doğru kitleye, <em>doğru</em> mesajla.</h1>
-        <p class="lp__lede" data-en="Measurable traffic and sales through ads, social and content. See exactly where every lira goes.">Reklam, sosyal medya ve içerikle ölçülebilir trafik ve satış. Harcadığın her kuruşun nereye gittiğini gör.</p>
-        <div class="lp__cta-row">
-          <button class="lp__cta lp__cta--solid fx-gradient" type="button" data-modal-open data-project="Dijital Pazarlama" data-en="Free Marketing Call">Ücretsiz Pazarlama Görüşmesi</button>
-          <a class="lp__cta lp__cta--ghost" href="#works" data-en="See example work">Örnek işleri gör</a>
-        </div>
-        <div class="lp__trust"><span><b>★ 4.9</b> <span data-en="rating">puan</span></span><span><b>Google &amp; Meta</b></span><span><b>ROAS</b> <span data-en="focused">odaklı</span></span></div>
-      </div>
-      <div class="lp__hero-r" data-reveal="scale"><div class="device"><div class="device__bar"><i></i><i></i><i></i></div><div class="device__screen"><img src="/works/meridian.svg" alt="Pazarlama kampanyası örneği" loading="lazy" /></div></div></div>
-    </div>
-    <div class="lp__label"><span data-en="Why it works">Neden işe yarar</span></div>
-    <div class="lp__grid">
-      <div class="lp__benefit glass" data-reveal><span class="n">01</span><h4 data-en="Measurable">Ölçülebilir</h4><p data-en="Every campaign reported with ROAS and conversions.">Her kampanya ROAS ve dönüşümle raporlanır.</p></div>
-      <div class="lp__benefit glass" data-reveal><span class="n">02</span><h4 data-en="Creative + performance">Kreatif + performans</h4><p data-en="Cinematic content with a performance strategy.">Sinematik içerik, performans kurgusu.</p></div>
-      <div class="lp__benefit glass" data-reveal><span class="n">03</span><h4 data-en="One hand">Tek elden</h4><p data-en="Strategy, ads and content together.">Strateji, reklam ve içerik bir arada.</p></div>
-    </div>
-    <div class="lp__label"><span data-en="What’s included">Neler dahil</span></div>
-    <ul class="lp__includes" data-reveal>
-      <li data-en="Google &amp; Meta ad management">Google &amp; Meta reklam yönetimi</li>
-      <li data-en="Social media management">Sosyal medya yönetimi</li>
-      <li data-en="Content &amp; creative production">İçerik &amp; kreatif üretimi</li>
-      <li data-en="Email marketing (Klaviyo)">E-posta pazarlama (Klaviyo)</li>
-      <li data-en="Conversion tracking (GA4)">Dönüşüm takibi (GA4)</li>
-      <li data-en="Monthly performance report">Aylık performans raporu</li>
-    </ul>
-    <div class="lp__label"><span data-en="How we work">Nasıl çalışıyoruz</span></div>
-    <div class="lp__steps" data-reveal>
-      <div class="lp__step"><span class="n">01</span><h4 data-en="Strategy">Strateji</h4><p data-en="Audience and offer.">Kitle ve teklif.</p></div>
-      <div class="lp__step"><span class="n">02</span><h4 data-en="Creative">Kreatif</h4><p data-en="Content and ads.">İçerik ve reklam.</p></div>
-      <div class="lp__step"><span class="n">03</span><h4 data-en="Launch">Yayın</h4><p data-en="Go live across channels.">Kanallarda yayına al.</p></div>
-      <div class="lp__step"><span class="n">04</span><h4 data-en="Optimize">Optimizasyon</h4><p data-en="Iterate on the data.">Veriyle iyileştir.</p></div>
-    </div>
-    <div class="lp__label"><span data-en="FAQ">Sık sorulanlar</span></div>
-    <div class="lp__faq" data-reveal>
-      <details><summary data-en="What budget do I need?">Bütçe ne olmalı?</summary><p data-en="We plan by sector and start by testing with a small budget.">Sektöre göre planlarız; küçük bütçeyle test ederiz.</p></details>
-      <details><summary data-en="Is ad spend included?">Reklam bütçesi dahil mi?</summary><p data-en="No — the management fee is separate; the ad budget is yours.">Hayır, yönetim ücreti ayrıdır; reklam bütçesi sana ait.</p></details>
-      <details><summary data-en="Which platforms?">Hangi platformlar?</summary><p data-en="Google, Meta, and TikTok where it fits.">Google, Meta ve gerekirse TikTok.</p></details>
-    </div>
-    <div class="lp__band" data-reveal>
-      <h3 data-en="Don’t waste budget — grow measurably.">Bütçeni boşa harcama; ölçülebilir büyü.</h3>
-      <p data-en="Let’s talk for 30 minutes and map a plan that fits your budget.">30 dakika konuşalım; bütçene uygun bir plan çıkaralım.</p>
-      <button class="lp__cta lp__cta--solid fx-gradient" type="button" data-modal-open data-project="Dijital Pazarlama" data-en="Get a Free Call">Ücretsiz Görüşme Al</button>
-    </div>
+    <!-- CMS:LP_PAZARLAMA — content/landings/pazarlama.json'dan basilir; panelden yonet -->
   </section>
 
   <!-- ====================== 04 SÜREÇ ======================= -->
   <section class="process" id="process" data-page="process">
     <div class="process__pin">
       <div class="process__head">
-        <span class="mono" style="color:var(--accent)" data-en="04 — Process">04 — Süreç</span>
-        <h2 class="process__intro" data-scrub data-en="From idea to launch, eight clear steps.">Fikirden yayına, sekiz net adım.</h2>
+        <!-- CMS:PROCESSHEAD -->
       </div>
       <div class="process__rail" data-rail>
-        <article class="step" data-step><span class="step__ghost">01</span><span class="step__n" data-en="01 — Discovery">01 — Keşif</span><h3 class="step__title" data-en="Discovery & Brief">Keşif & Brief</h3><p class="step__body" data-en="We clarify goals, audience and the current state. We define together what success looks like.">Hedefleri, kitleyi ve mevcut durumu netleştiriyoruz. Başarı neye benziyor, birlikte tanımlıyoruz.</p></article>
-        <article class="step" data-step><span class="step__ghost">02</span><span class="step__n" data-en="02 — Architecture">02 — Mimari</span><h3 class="step__title" data-en="UX Architecture">UX Mimarisi</h3><p class="step__body" data-en="Page flow, information architecture and conversion path. The skeleton is set firmly before design.">Sayfa akışı, bilgi mimarisi ve dönüşüm yolu. Tasarımdan önce iskelet sağlam kuruluyor.</p></article>
-        <article class="step" data-step><span class="step__ghost">03</span><span class="step__n" data-en="03 — Design">03 — Tasarım</span><h3 class="step__title" data-en="UI Design">UI Tasarım</h3><p class="step__body" data-en="A high-converting interface true to the brand voice. Design system and components.">Marka diline sadık, yüksek dönüşümlü arayüz. Tasarım sistemi ve bileşenler.</p></article>
-        <article class="step" data-step><span class="step__ghost">04</span><span class="step__n" data-en="04 — Development">04 — Geliştirme</span><h3 class="step__title" data-en="Theme Development">Tema Geliştirme</h3><p class="step__body" data-en="Clean Liquid, flexible sections and an editor-friendly structure. Code quality is non-negotiable.">Temiz Liquid, esnek bölümler ve düzenleyici dostu yapı. Kod kalitesi devredilemez.</p></article>
-        <article class="step" data-step><span class="step__ghost">05</span><span class="step__n" data-en="05 — Integration">05 — Entegrasyon</span><h3 class="step__title" data-en="Integration">Entegrasyon</h3><p class="step__body" data-en="Payments, shipping, analytics and required apps. Every piece works as one whole.">Ödeme, kargo, analitik ve gerekli uygulamalar. Her parça tek bütün gibi çalışıyor.</p></article>
-        <article class="step" data-step><span class="step__ghost">06</span><span class="step__n" data-en="06 — Performance">06 — Performans</span><h3 class="step__title" data-en="Performance">Performans</h3><p class="step__body" data-en="Speed optimization, image loading strategy and core web vitals.">Hız optimizasyonu, görsel yükleme stratejisi ve çekirdek web metrikleri.</p></article>
-        <article class="step" data-step><span class="step__ghost">07</span><span class="step__n">07 — QA</span><h3 class="step__title" data-en="Testing & QA">Test & QA</h3><p class="step__body" data-en="Device, browser and edge-case testing. Everything works before launch.">Cihaz, tarayıcı ve uç durum testleri. Yayından önce her şey çalışıyor.</p></article>
-        <article class="step" data-step><span class="step__ghost">08</span><span class="step__n" data-en="08 — Launch">08 — Yayın</span><h3 class="step__title" data-en="Launch & Maintenance">Yayın & Bakım</h3><p class="step__body" data-en="A seamless go-live, handover training and ongoing support afterwards.">Sorunsuz geçiş, devir eğitimi ve sonrasında sürekli destek.</p></article>
+        <!-- CMS:PROCESS — adımlar content/sections/process.json'dan basilir; panelden yonet -->
       </div>
       <div class="process__progress"><div class="bar"><i data-progress></i></div></div>
     </div>
@@ -649,58 +203,14 @@
   <!-- ====================== 05 İLETİŞİM ==================== -->
   <section class="contact" id="contact" data-page="contact">
     <div class="contact__inner">
-      <div data-reveal>
-        <span class="mono" style="color:var(--accent)" data-en="05 — Contact">05 — İletişim</span>
-        <h2 class="contact__title" style="margin-top:1.4rem" data-en-html="The next storefront <span class='w'>— maybe yours —</span> is ready to transform.">Bir sonraki vitrin <span class="w">— belki seninki —</span> dönüşmeye hazır.</h2>
-        <p class="contact__lede" data-en="A new store, the rebirth of an existing theme, or just an idea. Let’s start the conversation.">Yeni bir mağaza, mevcut bir temanın yeniden doğuşu ya da sadece bir fikir. Konuşmaya başlayalım.</p>
-        <a class="contact__cta" href="mailto:okanbayraktarr@gmail.com" data-magnetic data-modal-open>
-          <span data-en="Let’s Talk">Projeyi Konuşalım</span>
-          <span class="g" aria-hidden="true">→</span>
-        </a>
-        <div class="contact__meta">
-          <a class="mono" href="tel:+905398624697">+90 539 862 46 97</a>
-          <a class="mono" href="mailto:okanbayraktarr@gmail.com">okanbayraktarr@gmail.com</a>
-          <span class="mono" data-en="Istanbul · Remote">İstanbul · Uzaktan</span>
-        </div>
-        <p class="contact__tag mono"><span class="status-dot" style="display:inline-block;vertical-align:middle;margin-right:.5rem"></span> <span data-en="Online · Open to new projects">Çevrimiçi · Yeni projelere açık</span></p>
-      </div>
+      <!-- CMS:CONTACT — iletisim metni content/sections/contact.json + content/settings/contact.json'dan basilir -->
     </div>
   </section>
 
   <!-- ======================= FOOTER ======================== -->
   <footer class="footer">
     <div class="footer__inner">
-      <div class="footer__top">
-        <span class="footer__brand">OB°</span>
-        <span class="footer__tag" data-en="— building cinematic brands">— sinematik markalar kuruyoruz</span>
-      </div>
-      <div class="footer__cols">
-        <div class="footer__col">
-          <h4>Index</h4>
-          <a href="#about" data-en="About">Hakkımda</a>
-          <a href="#works" data-en="Work">Yapılan İşler</a>
-          <a href="#skills" data-en="Capabilities">Yetenekler</a>
-        </div>
-        <div class="footer__col">
-          <h4 data-en="Channels">Kanallar</h4>
-          <a href="#process" data-en="Process">Süreç</a>
-          <a href="#contact" data-en="Contact">İletişim</a>
-          <a href="mailto:okanbayraktarr@gmail.com" data-en="Email">E-posta</a>
-        </div>
-        <div class="footer__col">
-          <h4 data-en="Contact">İletişim</h4>
-          <a href="mailto:okanbayraktarr@gmail.com">okanbayraktarr@gmail.com</a>
-          <a href="tel:+905398624697">+90 539 862 46 97</a>
-          <span data-en="Istanbul · Remote">İstanbul · Uzaktan</span>
-        </div>
-        <div class="footer__col">
-          <h4>Index No.</h4>
-          <span>© 2025 / 2026</span>
-          <span data-en="OB° Studio">OB° Stüdyo</span>
-          <span data-en="All rights reserved">Tüm hakları saklıdır</span>
-        </div>
-      </div>
-      <div class="footer__lockup">OB°</div>
+      <!-- CMS:FOOTER — footer content/sections/footer.json + content/settings/contact.json'dan basilir -->
     </div>
   </footer>
 
@@ -715,61 +225,13 @@
     <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
       <button class="modal__close" type="button" data-modal-close aria-label="Kapat">×</button>
       <div class="modal__grid">
-        <aside class="modal__aside">
-          <span class="mono" style="color:var(--accent)" data-en="Let’s Talk">Projeyi Konuşalım</span>
-          <h2 class="modal__title" id="modalTitle" data-en-html="Let’s build a <em>world</em> together.">Birlikte bir <em>dünya</em> kuralım.</h2>
-          <p class="modal__lede" data-en="A few lines are enough. I’ll get back to you within 24 hours.">Birkaç satır yeter. 24 saat içinde sana dönüyorum.</p>
-          <ul class="modal__contact">
-            <li><span class="mono" data-en="Phone">Telefon</span><a href="tel:+905398624697">+90 539 862 46 97</a></li>
-            <li><span class="mono">E-posta</span><a href="mailto:okanbayraktarr@gmail.com">okanbayraktarr@gmail.com</a></li>
-            <li><span class="mono" data-en="Location">Konum</span><span data-en="Istanbul · Remote">İstanbul · Uzaktan</span></li>
-          </ul>
-        </aside>
-
-        <form class="modal__form" id="contactForm" novalidate>
-          <div class="field">
-            <label for="f-name" data-en="Full Name">Ad Soyad</label>
-            <input id="f-name" name="name" type="text" autocomplete="name" required pattern="[^0-9]+" title="Ad soyad rakam içeremez" placeholder="Adınız" data-en-ph="Your name" />
-          </div>
-          <div class="field-row">
-            <div class="field">
-              <label for="f-email">E-posta</label>
-              <input id="f-email" name="email" type="email" autocomplete="email" required placeholder="ornek@mail.com" data-en-ph="you@mail.com" />
-            </div>
-            <div class="field">
-              <label for="f-phone" data-en="Phone">Telefon</label>
-              <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required pattern="[0-9+()\s-]{10,}" title="Geçerli bir telefon numarası girin (en az 10 rakam)" placeholder="05xx xxx xx xx" data-en-ph="+90 5xx xxx xx xx" />
-            </div>
-          </div>
-          <div class="field">
-            <label for="f-type" data-en="Project Type">Proje Türü</label>
-            <select id="f-type" name="project_type">
-              <option value="Web Sitesi" data-en="Website">Web Sitesi</option>
-              <option value="Shopify / E-Ticaret" data-en="Shopify / E-Commerce">Shopify / E-Ticaret</option>
-              <option value="Marka Kimliği" data-en="Brand Identity">Marka Kimliği</option>
-              <option value="SEO & Performans" data-en="SEO & Performance">SEO & Performans</option>
-              <option value="Dijital Pazarlama" data-en="Digital Marketing">Dijital Pazarlama</option>
-              <option value="Görsel / İçerik" data-en="Visual / Content Production">Görsel / İçerik Üretimi</option>
-              <option value="Diğer" data-en="Other">Diğer</option>
-            </select>
-          </div>
-          <div class="field">
-            <label for="f-msg" data-en="About your project">Projen hakkında</label>
-            <textarea id="f-msg" name="message" rows="4" required placeholder="Kısaca ne hayal ediyorsun?" data-en-ph="Briefly, what are you imagining?"></textarea>
-          </div>
-          <!-- FormSubmit ayarları + bot tuzağı -->
-          <input type="hidden" name="_subject" value="OB° Stüdyo — Yeni proje talebi" />
-          <input type="hidden" name="_template" value="table" />
-          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true" />
-          <button class="modal__submit" type="submit">
-            <span data-en="Send">Gönder</span><span class="g" aria-hidden="true">→</span>
-          </button>
-          <p class="modal__status" id="formStatus" role="status" aria-live="polite"></p>
-        </form>
+        <!-- CMS:FORM — modal aside + form content/form/settings.json + content/settings/contact.json'dan basilir -->
       </div>
     </div>
   </div>
 
+  <!-- CMS:HEROJS -->
+  <!-- CMS:I18NJS -->
   <script type="module" src="/main.js"></script>
 </body>
 </html>
