@@ -1,0 +1,53 @@
+name: Deploy
+
+# main'e her push'ta (kaynak degisikligi VEYA /admin'de icerik kaydedince
+# Tina'nin main'e attigi commit) otomatik build + gh-pages deploy.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: # panelden elle tetikleme
+
+# Ust uste deploy'lari sirala; ayni anda iki deploy gh-pages'i bozmasin.
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: write # gh-pages dalina push icin
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      # Agir dev-araclari (fbx2gltf/gltf-transform/playwright) optionalDependencies'te;
+      # --omit=optional ile CI'da kurulmaz -> hizli ve dayanikli.
+      - name: Install deps
+        run: npm ci --omit=optional
+
+      - name: Build (Tina + Vite)
+        env:
+          TINA_CLIENT_ID: 28caa49d-6290-4365-aadc-e2a36521523a # public, gizli degil
+          TINA_TOKEN: ${{ secrets.TINA_TOKEN }} # GIZLI — repo secret olarak eklenir
+        run: npm run build
+
+      # Tina, dist/admin/.gitignore uretip index.html+assets'i ignore eder;
+      # gh-pages'e admin'in TAMAMI gitsin diye dist icindeki .gitignore'lari sil.
+      - name: Strip dist .gitignore (admin paneli deploy olsun)
+        run: find dist -name .gitignore -delete
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          cname: eokanbayraktar.com
