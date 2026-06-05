@@ -28,10 +28,14 @@ jobs:
           node-version: 22
           cache: npm
 
-      # Agir dev-araclari (fbx2gltf/gltf-transform/playwright) optionalDependencies'te;
-      # --omit=optional ile CI'da kurulmaz -> hizli ve dayanikli.
+      # Tam npm ci: rollup/esbuild'in platforma ozel native ikili dosyalari
+      # optionalDependencies oldugu icin --omit=optional onlari da atlar ve build
+      # patlar. O yuzden tam kurulum yapip sadece playwright tarayici indirmesini
+      # atliyoruz. fbx2gltf optionalDependencies'te -> kurulumu patlarsa CI dusmiyor.
       - name: Install deps
-        run: npm ci --omit=optional
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+        run: npm ci
 
       - name: Build (Tina + Vite)
         env:
